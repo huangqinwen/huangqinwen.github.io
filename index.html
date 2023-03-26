@@ -200,7 +200,118 @@
           <!-- Selected papers -->
           <h2><a href="/publications/" style="color: inherit;">selected publications</a></h2>
           <div class="publications">
-            <ol class="bibliography"></ol>
+            <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="10.7554/eLife.80047" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Automated systematic evaluation of cryo-EM specimens with SmartScope</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Jonathan Bouvette, <em>Qinwen Huang</em>, Amanda A Riccio, and
+          <span class="more-authors" title="click to view 3 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '3 more authors' ? 'William C Copeland, Alberto Bartesaghi, Mario J Borgnia' : '3 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">3 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>eLife</em>, Aug 2022
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.7554/eLife.80047"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.7554/eLife.80047" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 6px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Finding the conditions to stabilize a macromolecular target for imaging remains the most critical barrier to determining its structure by cryo-electron microscopy (cryo-EM). While automation has significantly increased the speed of data collection, specimens are still screened manually, a laborious and subjective task that often determines the success of a project. Here, we present SmartScope, the first framework to streamline, standardize, and automate specimen evaluation in cryo-EM. SmartScope employs deep-learning-based object detection to identify and classify features suitable for imaging, allowing it to perform thorough specimen screening in a fully automated manner. A web interface provides remote control over the automated operation of the microscope in real time and access to images and annotation tools. Manual annotations can be used to re-train the feature recognition models, leading to improvements in performance. Our automated tool for systematic evaluation of specimens streamlines structure determination and lowers the barrier of adoption for cryo-EM.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="10.1007/978-3-031-19803-8_38" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Accurate Detection of Proteins in Cryo-Electron Tomograms from Sparse Labels</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Qinwen Huang</em>, Ye Zhou, Hsuan-Fu Liu, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Alberto Bartesaghi' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Computer Vision – ECCV 2022</em>, Aug 2022
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-isbn="978-3-031-19803-8"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 6px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Cryo-electron tomography (CET) combined with sub-volume averaging (SVA), is currently the only imaging technique capable of de-termining the structure of proteins imaged inside cells at molecular reso-lution. To obtain high-resolution reconstructions, sub-volumes containing randomly distributed copies of the protein of interest need be identified, extracted and subjected to SVA, making accurate particle detection a critical step in the CET processing pipeline. Classical template-based methods have high false-positive rates due to the very low signal-to-noise ratios (SNR) typical of CET volumes, while more recent neural-network based detection algorithms require extensive labeling, are very slow to train and can take days to run. To address these issues, we propose a novel particle detection framework that uses positive-unlabeled learning and exploits the unique properties of 3D tomograms to improve detec-tion performance. Our end-to-end framework is able to identify particles within minutes when trained using a single partially labeled tomogram. We conducted extensive validation experiments on two challenging CET datasets representing different experimental conditions, and observed more than }}10\backslash%}}10%improvement in mAP and F1 scores compared to existing particle picking methods used in CET. Ultimately, the proposed framework will facilitate the structural analysis of challenging biomedical targets imaged within the native environment of cells.</p>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
           </div>
 
 
@@ -211,7 +322,6 @@
             <a href="https://scholar.google.com/citations?user=LOPUXfUAAAAJ&amp;hl" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a>
             <a href="https://github.com/huangqinwen" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fab fa-github"></i></a>
             <a href="https://www.linkedin.com/in/qinwen-huang#%20your%20LinkedIn%20user%20name" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
             
 
               </div>

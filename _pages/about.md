@@ -6,7 +6,7 @@ subtitle: PhD Candidate @ Duke University. Department of Computer Science
 
 profile:
   align: right
-  image: prof_pic_new.jpg
+  image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   address: >
     

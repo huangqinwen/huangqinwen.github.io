@@ -1,18 +1,17 @@
 ---
 layout: page
+title: Publications
+subtitle: "Selected academic work."
 permalink: /publications/
-title: publications
-description: Recent publications
-years: [2022, 2021, 2020]
-nav: true
-nav_order: 1
 ---
-<!-- _pages/publications.md -->
-<div class="publications">
 
-{%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
+[TODO: list papers. Suggested format:
 
-</div>
+**Paper title.**
+Authors. *Venue*, Year. [[PDF](link)] [[Code](link)] [[arXiv](link)]
+
+1-line summary (optional).
+
+---
+
+Pull from your Google Scholar profile (LOPUXfUAAAAJ) or list by hand. Group by year (## 2023, ## 2022…) if you prefer.]

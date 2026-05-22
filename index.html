@@ -1,0 +1,234 @@
+---
+layout: home
+title: Qinwen Huang
+permalink: /
+---
+
+<div class="home-layout">
+
+  <aside class="home-sidebar">
+    <p class="sidebar-label">Qinwen (Wendy) Huang</p>
+    <p class="sidebar-sublabel">Index</p>
+    <nav aria-label="Page sections">
+      <ul>
+        <li><a href="#north-star" data-section="north-star">North Star</a></li>
+        <li><a href="#about" data-section="about">About</a></li>
+        <li><a href="#writing" data-section="writing">Writing</a></li>
+        <li><a href="#work" data-section="work">Tinkering</a></li>
+        <li><a href="#publications" data-section="publications">Publications</a></li>
+        <li><a href="#favorites" data-section="favorites">Favorites</a></li>
+        <li><a href="#connect" data-section="connect">Connect</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="home-content">
+
+    <!-- ===== North Star ===== -->
+    <section id="north-star" class="section section-hero" data-num="01 / North Star">
+      <p class="eyebrow">North Star</p>
+      <h1 class="display">Stay true to your heart.</h1>
+      <figure class="hero-dune">
+        <img src="{{ '/assets/img/hero-zao-wou-ki-triptych.jpg' | relative_url }}"
+             alt="Zao Wou-Ki, Triptyque (detail) — abstract landscape in deep blue, ink, and ochre"
+             loading="eager" />
+        <figcaption class="hero-caption">
+          <span class="hero-caption-title">Zao Wou-Ki · <em>Triptyque</em></span>
+          <span class="hero-caption-credit">Image: <a href="https://www.christies.com" rel="noopener">Christie&rsquo;s Images Ltd. 2025</a></span>
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section id="about" class="section" data-num="02 / About">
+      <p class="eyebrow">About</p>
+      <div class="about-body">
+        <p>Hi, I&rsquo;m Wendy. I like building things that make life feel a little clearer, easier, or more human.</p>
+
+        <p>My path hasn&rsquo;t been especially linear, but curiosity has always pulled me forward. I started in biomedical engineering at Johns Hopkins, then went on to a PhD in computer science at Duke, where I worked on <a href="#publications">machine learning for cryo-electron tomography</a> &mdash; a technique for seeing proteins inside cells. That work eventually became tools used by national labs and universities.</p>
+
+        <p>Over time, I became interested in how scientific and technical ideas move from research into the world. I explored venture capital, then worked at Bain on growth strategy and go-to-market questions across AI, software, and healthcare. Later, I built and sold <a href="#work">PowerPoint automation tools</a> after seeing how much repetitive work people quietly accept as &ldquo;just part of the job.&rdquo;</p>
+
+        <p>These days, I find myself coming back to health: how we understand our bodies, how we stay well for longer, and how better tools might help people make sense of their physical, mental, and financial lives without adding more complexity.</p>
+
+        <p>Outside of work, I&rsquo;m usually reading, following my curiosity into new topics, or spending time with my cat, <a href="#favorites">Duoduo</a>, who is very good at reminding me to slow down.</p>
+      </div>
+    </section>
+
+    <!-- ===== Writing ===== -->
+    <section id="writing" class="section" data-num="03 / Writing">
+      <p class="eyebrow">Writing</p>
+      <p class="section-intro">A few threads I keep coming back to.</p>
+      <ol class="numbered-list numbered-list-rich">
+        {% for thread in site.data.writing_threads %}
+        <li>
+          <strong><a href="{{ site.substack_url }}/t/{{ thread.slug }}" target="_blank" rel="noopener">{{ thread.title }}</a></strong>
+          <p>{{ thread.description }}</p>
+        </li>
+        {% endfor %}
+      </ol>
+      <a class="all-writing-link" href="{{ site.substack_url }}" target="_blank" rel="noopener">All writing &rarr;</a>
+    </section>
+
+    <!-- ===== Tinkering ===== -->
+    <section id="work" class="section" data-num="04 / Tinkering">
+      <p class="eyebrow">Tinkering</p>
+      <ol class="numbered-list numbered-list-rich">
+        <li>
+          <strong><a href="https://theduomi.com/" target="_blank" rel="noopener">Logo Wall Builder</a></strong>
+          <p>A logo wall builder for consulting decks and competitive landscapes. Used by analysts and consultants at investment banks and PE firms.</p>
+        </li>
+        <li>
+          <strong><a href="https://docs-slidekit.theduomi.com/" target="_blank" rel="noopener">SlideKit</a></strong>
+          <p>A PowerPoint backend for AI agents and automated workflows. Generates branded decks that match your .pptx template.</p>
+        </li>
+        <li>
+          <strong><a href="https://nextpyp.app/" target="_blank" rel="noopener">nextPYP</a></strong>
+          <p>A cryo-EM/ET data processing platform for labs and universities, based on my PhD work.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===== Publications ===== -->
+    <section id="publications" class="section" data-num="05 / Selected Publications">
+      <p class="eyebrow">Selected Publications</p>
+      <ol class="numbered-list numbered-list-rich">
+        <li>
+          <strong><a href="https://elifesciences.org/articles/80047" target="_blank" rel="noopener">SmartScope: automated systematic evaluation of cryo-EM specimens</a></strong>
+          <p>eLife, 2022</p>
+        </li>
+        <li>
+          <strong><a href="https://www.nature.com/articles/s41592-023-02045-0" target="_blank" rel="noopener">nextPYP: a comprehensive and scalable platform for cryo-electron tomography</a></strong>
+          <p>Nature Methods, 2023</p>
+        </li>
+        <li>
+          <strong><a href="https://www.nature.com/articles/s41592-024-02403-6" target="_blank" rel="noopener">MiLoPYP: self-supervised molecular pattern mining and particle localization in situ</a></strong>
+          <p>Nature Methods, 2024</p>
+        </li>
+        <li>
+          <strong><a href="https://link.springer.com/chapter/10.1007/978-3-031-19803-8_38" target="_blank" rel="noopener">Accurate detection of proteins in cryo-electron tomograms from sparse labels</a></strong>
+          <p>ECCV, 2022</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===== Favorites ===== -->
+    <section id="favorites" class="section" data-num="06 / Favorites">
+      <p class="eyebrow">Favorites</p>
+      <div class="favorites-grid">
+        <div class="fav-card">
+          <div class="fav-img">
+            <img src="{{ '/assets/img/Image_20260521230537_8_855.jpg' | relative_url }}" alt="Duoduo on his cat tree" loading="lazy" />
+          </div>
+          <p>Duoduo</p>
+        </div>
+        <div class="fav-card">
+          <div class="fav-img">
+            <img src="{{ '/assets/img/Image_20260521230657_12_855.jpg' | relative_url }}" alt="Duoduo asleep in a boucle chair" loading="lazy" />
+          </div>
+          <p>Duoduo</p>
+        </div>
+        <div class="fav-card">
+          <div class="fav-img">
+            <img src="{{ '/assets/img/Image_20260521230534_7_855.jpg' | relative_url }}" alt="Elephants on the savanna" loading="lazy" />
+          </div>
+          <p>Tanzania</p>
+        </div>
+        <div class="fav-card">
+          <div class="fav-img">
+            <img src="{{ '/assets/img/Image_20260521230557_10_855.jpg' | relative_url }}" alt="Ostrich in grassland" loading="lazy" />
+          </div>
+          <p>Tanzania</p>
+        </div>
+        <div class="fav-card">
+          <div class="fav-img">
+            <img src="{{ '/assets/img/Image_20260521230539_9_855.jpg' | relative_url }}" alt="Pamukkale travertine pools" loading="lazy" />
+          </div>
+          <p>Pamukkale</p>
+        </div>
+        <div class="fav-card">
+          <div class="fav-img">
+            <img src="{{ '/assets/img/Image_20260521230559_11_855.jpg' | relative_url }}" alt="Walking toward a hillside" loading="lazy" />
+          </div>
+          <p>Isle of Skye</p>
+        </div>
+        <div class="fav-card">
+          <div class="fav-img">
+            <img src="{{ '/assets/img/Image_20260521232612_18_855.jpg' | relative_url }}" alt="Lake Tuz mirror reflection" loading="lazy" />
+          </div>
+          <p>Lake Tuz</p>
+        </div>
+        <div class="fav-card">
+          <div class="fav-img">
+            <img src="{{ '/assets/img/Image_20260521233020_22_855.jpg' | relative_url }}" alt="Black cat at an outdoor dinner table in Tuscany" loading="lazy" />
+          </div>
+          <p>Black cat at an outdoor dinner table in Tuscany</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Connect / Signup ===== -->
+    <section id="connect" class="section signup-section" data-num="07 / Connect">
+      <p class="eyebrow">Stay in Touch</p>
+      <p>I can be reached at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+      <div class="signup-actions">
+        <a class="btn" href="{{ site.substack_url }}" target="_blank" rel="noopener">Subscribe on Substack &rarr;</a>
+        <a class="btn btn-secondary" href="mailto:{{ site.email }}">Email me &rarr;</a>
+      </div>
+    </section>
+
+  </main>
+
+  {% comment %} Decor column removed — restore by un-commenting if you want the Bauhaus shapes back.
+  <aside class="decor-column" aria-hidden="true">
+    <div class="shape sh-halfcircle-black"></div>
+    <div class="shape sh-circle-teal"></div>
+    <div class="shape sh-square-rust"></div>
+    <div class="shape sh-square-black"></div>
+    <div class="shape sh-stripes shape-double-v"></div>
+    <div class="shape sh-target"></div>
+    <div class="shape sh-halfcircle-rust"></div>
+    <div class="shape sh-dots"></div>
+    <div class="shape sh-circle-black"></div>
+    <div class="shape sh-square-cream"></div>
+    <div class="shape sh-square-teal"></div>
+    <div class="shape sh-circle-cream"></div>
+    <div class="shape sh-stripes"></div>
+    <div class="shape sh-halfcircle-black"></div>
+    <div class="shape sh-circle-rust"></div>
+  </aside>
+  {% endcomment %}
+</div>
+
+<section class="quote-section" aria-label="Closing quotes">
+  <blockquote class="quote-block quote-dune">
+    <p class="quote-text">Fear is the mind-killer</p>
+    <cite class="quote-attr">— Frank Herbert</cite>
+  </blockquote>
+
+  <span class="quote-divider" aria-hidden="true"></span>
+
+  <blockquote class="quote-block quote-zen">
+    <p class="quote-text quote-zh" lang="zh">長空不礙白雲飛</p>
+    <cite class="quote-attr">— 石頭希遷</cite>
+  </blockquote>
+</section>
+
+<script>
+(function() {
+  const links = document.querySelectorAll('.home-sidebar a[data-section]');
+  const sections = document.querySelectorAll('.home-content section[id]');
+  if (!('IntersectionObserver' in window) || !sections.length) return;
+
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        const id = e.target.id;
+        links.forEach(l => l.classList.toggle('active', l.dataset.section === id));
+      }
+    });
+  }, { rootMargin: '-40% 0px -50% 0px', threshold: 0 });
+
+  sections.forEach(s => obs.observe(s));
+})();
+</script>

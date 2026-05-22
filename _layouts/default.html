@@ -1,36 +1,17 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang }}">
-
-  <!-- Head -->
-  <head>
-  {%- if page.redirect -%}
-    <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
-  {%- endif -%}
-  {% include head.html %}
-  </head>
-
-  <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-
-    <!-- Header -->
-    {%- include header.html %}
-
-    <!-- Content -->
-    <div class="container mt-5">
+<!doctype html>
+<html lang="en">
+  {%- include head.html -%}
+  <body class="{% if page.permalink == '/' %}is-home{% endif %}">
+    {%- unless page.permalink == '/' -%}
+    {%- include header.html -%}
+    <main class="container">
       {{ content }}
-    </div>
-
-    <!-- Footer -->
-    {%- include footer.html %}
-
-    <!-- JavaScripts -->
-    {% include scripts/jquery.html %}
-    {% include scripts/bootstrap.html %}
-    {% include scripts/masonry.html %}
-    {% include scripts/misc.html %}
-    {% include scripts/badges.html %}
-    {% include scripts/mathjax.html %}
-    {% include scripts/analytics.html %}
-    {% include scripts/progressBar.html %}
+    </main>
+    {%- include footer.html -%}
+    {%- else -%}
+    <main>
+      {{ content }}
+    </main>
+    {%- endunless -%}
   </body>
 </html>

@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>From Cell to System — How BESS Becomes Infrastructure — Wendy's Open Notes</title>
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <meta name="description" content="">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Hanken+Grotesk:wght@400;500;550;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body class="note-body">
+  <article class="note-page">
+    <a class="note-back" href="/#notes">← back to the notebook</a>
+    <h1 class="note-h1">From Cell to System — How BESS Becomes Infrastructure</h1>
+    
+    <p class="note-byline">November 15, 2025 · What we'd need to build for it</p>
+    <div class="note-content">
+      <h2 id="at-a-glance"><strong>At a Glance</strong></h2>
+
+<ol>
+  <li><strong>BESS is a vertically stacked system:</strong> Cells provide the energy, packs manage heat and safety, PCS converts DC/AC, and EMS makes real-time economic and operational decisions. The system behaves like a power plant during outages and a market-optimized asset during normal operations</li>
+  <li><strong>Three supply-side groups build the industry:</strong> in-house cell makers control everything from cell-manufacturing to BESS-integration; integrators engineer upper-layer systems and software; component vendors focus on parts supply. Each competes on a different layer of value</li>
+  <li><strong>Demand is diverse:</strong> Utilities treat BESS as grid infrastructure, data centers and factories treat it as capacity and power-quality insurance, homes use it for resilience, and VPP/optimization platforms orchestrate fleets of systems into revenue-generating virtual assets</li>
+</ol>
+
+<p><em><strong>This is Part 2 of our Energy Storage series — “How Li-ion Becomes Infrastructure.”</strong> Here, we take a deep dive into <strong>grid-scale battery energy storage systems (BESS)</strong> — unpacking their architecture, performance metrics, and the engineering trade-offs that define today’s leading technologies.</em></p>
+
+<p>Over the past decade, energy storage went from niche home backup units to one of the fastest-growing categories of infrastructure. The shift isn’t abstract — it’s driven by real pressure on the grid: more variable solar and wind on the supply side, more EVs and AI data centers on the demand side. Storage solves the timing problem. It moves electrons from when they’re produced to when they’re needed. Storage now shows up everywhere — utility plants, factories, campuses, residential homes, and increasingly <strong>data centers</strong>, which are becoming one of the largest behind-the-meter storage buyers.</p>
+
+<p>Before storage can be understood as a market or investment theme, it needs to be understood as infrastructure. This article explains how storage actually works  — <strong>from the single cell to the full grid-scale system, who builds it, and who uses it.</strong></p>
+
+<p><img src="/assets/img/notes/from-cell-to-system-how-bess-becomes/01.png" alt="" /></p>
+
+<p><em>Figure 1: The structure of BESS interaction with grid and solar PV farm.</em></p>
+
+<h2 id="understand-what-are-inside-a-bess-during-a-grid-event">Understand What are Inside a BESS During a Grid Event</h2>
+
+<p>Grid-scale BESS looks like a big container box on the outside. Inside, it’s a precise interplay of electrochemistry, mechanical engineering, power electronics, and software. To understand how these layers work together, imagine a simple but realistic scenario: it’s a hot and sunny afternoon, solar generation is strong, and the onsite solar array is powering part of the load while excess energy flow to charge the battery. Electricity demand is high — and suddenly a grid line trips. A region loses power. Normally this would mean immediate blackout — but a grid-scale BESS is sitting at the substation nearby, fully synchronized and ready. The entire process occurs automatically without manual intervention,</p>
+
+<h2 id="system-layer--integration-controls-and-software"><strong>System Layer — Integration, Controls, and Software</strong></h2>
+
+<h3 id="the-grid-fails--sensors-detect-the-drop">The Grid Fails — Sensors Detect the Drop</h3>
+
+<p>The instant the transmission line trips, the local grid frequency and voltage collapse. Protective relays on the PCS (Power Conversion System) sense the frequency swing and voltage drop. This detection happens within <strong>milliseconds</strong>.</p>
+
+<h3 id="ems-dispatches-the-power-output"><strong>EMS Dispatches the Power Output</strong></h3>
+
+<p>The EMS is constantly monitoring grid conditions and battery conditions. PCS makes the system physically capable of interacting with the grid at the hardware level, and the EMS makes the system operationally intelligent at the software level. When it sees the PCS signal an abnormal grid event, it immediately recalculates how much power the BESS should deliver and how to coordinate with the grid operator’s emergency instructions.</p>
+
+<p>EMS is the intelligence layer that transforms a battery from a passive storage device into an active, revenue-generating grid asset. It interprets market signals, grid conditions, and battery data in real time to decide when and how hard to charge or discharge, balancing immediate performance with long-term health. EMS communicates with upstream grid info as well as downstream BMS data, builds model to interpret market signals, grid conditions, and battery data in real time to decide when and how hard to charge or discharge. Modern EMS platforms integrate tightly with electricity market, adjusting strategies as weather and load forecasts evolve throughout the day and season cycle.</p>
+
+<p>So go back to the afternoon outage, the EMS switches to resilience mode.  It determines, within seconds, the exact discharge curve the PCS should follow.</p>
+
+<h3 id="pcs-sends-power-to-the-grid--turning-dc-into-ac"><strong>PCS Sends Power to the Grid — Turning DC Into AC</strong></h3>
+
+<p>Once EMS gives the command, the PCS begins pushing power from battery out onto the AC side.</p>
+
+<p>The PCS is the BESS’s grid physical interface. At its core, the PCS converts DC electricity from the battery to AC for grid export during discharge and performs the reverse conversion during charging, capable of operating in both <strong>grid-following</strong> and increasingly <strong>grid-forming modes</strong>. In grid-following mode, the PCS synchronizes to external voltage and frequency signals, while in grid-forming mode it establishes those signals itself, enabling batteries to behave like virtual synchronous machines. Its performance is defined by fast <strong>response time</strong>, <strong>96–98%</strong> <strong>round-trip efficiency</strong>, short-term overload capability, and its contribution to system stability. As renewable penetration increases, grid-forming PCS architectures are becoming industry standard.</p>
+
+<p>In the grid fail event, the PCS immediately enters grid-forming mode, starts generating a stable 50/60 Hz waveform using energy from the battery. Inside the PCS, battery DC flows into IGBTs / MOSFETs, then the inverter synthesizes a clean AC waveform and the output is synchronized across phases. This step is the electrical bridge — without the PCS, the DC energy in cells cannot do anything for the grid.</p>
+
+<h2 id="inside-the-battery-room--packs-bms-and-thermal-control-engage"><strong>Inside the Battery Room — Packs, BMS, and Thermal Control Engage</strong></h2>
+
+<p>While the PCS interacts with the grid, the <strong>BMS manages everything inside the container</strong>, sends signal to cell immediately to release electrochemistry energy.</p>
+
+<p><img src="/assets/img/notes/from-cell-to-system-how-bess-becomes/02.png" alt="" /></p>
+
+<p><em>Figure 2: The structure of BESS inside.</em></p>
+
+<h3 id="battery-management-system"><strong>Battery Management System</strong></h3>
+
+<p>Battery Management System continuously provides the electrical and thermal state of every cell while coordinating how the system charges, discharges. At its core, the BMS measures cell voltages, temperatures, and currents with high precision, using that data to keep the pack within safe operating limits and to prevent conditions that accelerate degradation or trigger thermal events. A well-designed BMS reduces over-charging stress and sharply reduces the frequency of unplanned downtime. If any module drifts out of tolerance, the BMS isolates that module and reroutes current around it. Increasingly, modern BMS data does not remain confined within the container; it is aggregated into cloud platforms where fleet-level analytics detect anomalies, forecast aging pathways, and guide high-level optimization. In short: <strong>BMS keeps the battery safe while PCS keeps the grid stable.</strong></p>
+
+<h3 id="electrochemistry-energy-comes-from-the-cells"><strong>Electrochemistry Energy Comes From the Cells</strong></h3>
+
+<p>When the signal of releasing power reaches to the deepest layer, energy comes from cells releasing stored ions. Modern BESS deployments overwhelmingly use LFP cells—now roughly 85–90% of global installations—because iron-phosphate chemistry offers advantages include:</p>
+
+<ul>
+  <li><strong>Low cost (iron + phosphate, no nickel/cobalt), most important, BESS use long time, very cost sensitive.</strong></li>
+  <li>High thermal stability → inherently safer than NMC</li>
+  <li>Long cycle life (6,000–12,000 cycles)</li>
+  <li>Wide operating temperature window</li>
+</ul>
+
+<p>Unlike EVs, BESS systems prioritize durability, safety, and scalability. Emerging chemistries such as sodium-ion and LMFP are gaining attention for their potential to reduce cost further and improve safety margins, while NMC remains relevant in space-constrained indoor or premium-energy applications.</p>
+
+<p>When a grid outage triggers the BESS to discharge, lithium ions migrate from the graphite anode through the electrolyte and separator toward the cathode, releasing electrons that flow into the external circuit and ultimately feed the PCS as it forms a stable AC waveform for the grid.</p>
+
+<h3 id="pack--engineering-for-scale"><strong>Pack — Engineering for Scale</strong></h3>
+
+<p>Intuitively, a <strong>battery pack is simply many cells wired and managed together</strong>. But turning “a lot of cells” into a <strong>high-quality, grid-grade pack</strong> is one of the hardest engineering problems in energy storage – thousands of cells must behave like one device. At the pack level, a grid outage triggers an immediate shift from steady-state monitoring to coordinated high-power delivery, turning the pack into the structural and electrical bridge that channels cell-level electrochemistry into system-level output. The pack must smooth thousands of voltage and temperature signals into a stable DC bus for the inverter, deliver high power instantly during a grid event, and ramp thermal management to extract heat uniformly. This middle layer—packs—is often the <em>least</em> appreciated, yet it defines safety, serviceability, and lifetime cost. Building a high-quality pack isn’t just “putting a lot of cells together”; it’s the engineering that makes the entire BESS work.</p>
+
+<h2 id="when-grid-power-returns--bess-smoothly-hands-control-back-and-receive-solar-power">When Grid Power Returns — BESS Smoothly Hands Control Back and Receive Solar Power</h2>
+
+<p>After hours of repairing, now the utility power is finally restored, the battery system transitions just as smoothly back to grid-connected operation as it did into islanding. The PCS is the first to recognize the reappearance of a stable grid waveform, continuously sampling the returning voltage and frequency until it determines that conditions are within acceptable synchronization tolerances; once aligned, it gradually shifts from generating its own grid-forming waveform to following the restored grid signal.</p>
+
+<p>As this electrical handoff begins, the EMS recalculates the system’s operating objectives, tapering battery discharge to avoid abrupt current changes, assessing the remaining state of charge, and determining whether the system should recharge immediately or hold in standby depending on requirements. The EMS also brings the onsite solar array back into its normal operating mode—no longer riding behind the BESS microgrid, the solar PV system now resumes exporting power into the facility and, when available, begins recharging the battery through the PCS.</p>
+
+<p>Meanwhile, the BMS moderates the internal transition by reducing load on the cells, rebalancing modules that diverged during the emergency discharge, and managing thermal recovery through cooling loops to bring all cell groups back into a uniform and stable temperature range.</p>
+
+<h2 id="who-build-the-systems--supply-side"><strong>Who Build the Systems — Supply Side</strong></h2>
+
+<p><img src="/assets/img/notes/from-cell-to-system-how-bess-becomes/03.png" alt="" /></p>
+
+<h3 id="vertical-integrated-supplier"><strong>Vertical Integrated Supplier</strong></h3>
+
+<p><strong>Vertical Integrated Supplier</strong> are the fully vertically integrated giants that make both the cells and the full containerized energy-storage system. Firms like CATL, BYD, LG Energy operate massive gigafactories where they control the entire chemical stack — electrode formulation, electrolyte additives, formation cycles, and pack/BMS co-design. Because cell manufacturing is capital-intensive, these companies push aggressively downstream to capture more value and lock in long-term supply.</p>
+
+<p>This IDM-style ownership lets them optimize for what stationary storage cares about most. Vertical integration creates engineering and economic advantages that outsiders cannot easily replicate and their scale compounds the advantage. High-utilization gigafactories reduce cost, integrated module/pack production cuts logistics risk, and controlling cell chemistry means safety fixes and performance upgrades propagate instantly through their BESS platforms.</p>
+
+<p>Key Players:</p>
+
+<ul>
+  <li>CATL, BYD, Gotion, CALB, EVE Energy, LG Energy Solution, Samsung SDI, SK On, Panasonic Energy</li>
+</ul>
+
+<h3 id="system-integrators"><strong>System Integrators</strong></h3>
+
+<p><strong>System Integrators</strong> design and build the upper layers of the storage stack—packs, racks, thermal&amp;fire management, BMS/EMS logic, PCS integration—while sourcing cells from upstream suppliers. <strong>Companies like Tesla Energy, Fluence, Powin operate more like semiconductor “fabless” firms</strong>: they design system architecture and firmware but do not own cell production. Their differentiation comes from thermal design quality, rack layout, BMS stability, PCS/EMS integration, and fleet-level software. Tesla integrates everything but the cell using its manufacturing discipline, while Fluence differentiates through its grid-software and multi-ISO dispatch algorithms.</p>
+
+<p>Because they avoid gigafactory CAPEX, these firms operate as agile platform builders: they can adopt new chemistries quickly, shift suppliers based on cost or performance, and optimize systems around whichever cells fit the project. As cells become more commoditized, value will increasingly shift toward firmware, controls, and operational intelligence—giving system integrators a path to capture more margin and customer trust. The race for value in the BESS stack remains open, and integrators are positioned to win if software continues to dominate system performance.</p>
+
+<p>Key Players</p>
+
+<ul>
+  <li>Tesla Energy (Megapack), Fluence, Powin, Wärtsilä, Sungrow, Huawei, Nidec, Schneider Electric, Siemens, EDF, Hitachi Energy, Eaton, Mitsubishi Power, GE Vernova</li>
+</ul>
+
+<h3 id="component-suppliers">Component Suppliers</h3>
+
+<p>The third group comprises companies that supply the power electronics, conversion hardware, and protective components that make BESS systems operable on real grids. Firms like <strong>SMA, Delta Electronics, DYNAPOWER, Eaton</strong> sit one layer down in the stack, providing the PCS, DC/DC converters, isolation transformers, switchgear, circuit breakers, relays, sensors, and protective subsystems that integrators depend on. This group is analogous to the <strong>component suppliers</strong> in the semiconductor industries—companies that provide indispensable pieces of the system but generally do not control the architecture.</p>
+
+<p>PCS and power-electronics design is its own high-complexity domain. These vendors must meet strict requirements which allow storage systems to stabilize weak grids or operate as virtual synchronous machines. Although they do not control the battery chemistry or the container design, their technology anchors the electrical performance of the entire installation.</p>
+
+<p>Economically, this segment remains flexible. Power-electronics vendors can move up the value chain by embedding more intelligence into inverters, integrating EMS-ready controls, or offering co-designed solutions with integrators. They can also become strategically important as grid-forming inverters become mandatory in high-renewable regions, making the PCS not just a conversion device but a stability resource.</p>
+
+<h2 id="who-uses-the-system--the-demand-side-of-bess">Who Uses the System — The Demand Side of BESS</h2>
+
+<p><img src="/assets/img/notes/from-cell-to-system-how-bess-becomes/04.png" alt="" /></p>
+
+<p>On the demand side, battery storage is no longer a single market. The same containerized storage block behaves completely differently depending on who owns it and what problem it is solving.</p>
+
+<h3 id="utility-scale-users--storage-as-grid-infrastructure"><strong>Utility-Scale Users — Storage as Grid Infrastructure</strong></h3>
+
+<p>Utility operators such as <strong>Vistra, RWE, ENGIE, Nextera Energy, Total, Shell Energy, and State Grid</strong> deploy BESS as core grid infrastructure—hundreds of megawatts tied directly to substations, renewables, and interconnection points. For these users, storage is a capacity asset that maintains reliability during peaks or contingencies, absorbs renewable volatility, and delivers fast frequency response and reserve. They evaluate systems like transmission upgrades: reliability, availability, response speed, and long-term stability. With 4–8-hour systems becoming the norm and grid-forming inverters increasingly essential, utility-scale deployments represent the largest revenue pool in BESS today.</p>
+
+<h3 id="factories--data-centers--storage-as-capacity-and-insurance">Factories &amp; Data Centers — Storage as Capacity and Insurance</h3>
+
+<p>A second fast-growing demand segment consists of <strong>large industrial loads</strong>, especially data centers and factories, represented by companies like <strong>AWS, Microsoft Azure, Google Cloud (data centers), Tesla, BYD, and Ford (factories)</strong>. With predictable but extremely high and sensitive power demand, factories use storage to stabilize internal power quality, protect equipment, and smooth high-power machinery loads, while AI data centers increasingly require BESS to secure grid interconnection and manage the massive load swings created by GPUs. As these loads outgrow local grid capacity, on-site batteries become essential operating infrastructure, making industrial and data-center storage one of the fastest-growing C&amp;I demand segments through 2030.</p>
+
+<h3 id="residential-storage--distributed-backup"><strong>Residential Storage — Distributed Backup</strong></h3>
+
+<p>Residential BESS, typically 5–20 kWh, turn homes into small-scale flexible loads. Homeowners adopt storage primarily for backup power, solar self-consumption, and time-of-use arbitrage. There are numerous residential storage across the country. But taken together, networks of home batteries evolve into <strong>virtual power plants(VPP)</strong> when orchestrated intelligently. A fleet of thousands of Powerwalls can collectively supply grid services normally reserved for utility-scale assets — ramping up during evening peaks or providing fast frequency response. The residential market is smaller per site but massive in aggregate, and it grows rapidly in regions with high solar penetration, wildfire risks, or expensive peak pricing.</p>
+
+<h3 id="auxiliary-service---digital-operators--aggregation-optimization-and-market-intelligence"><strong>Auxiliary Service - Digital Operators — Aggregation, Optimization, and Market Intelligence</strong></h3>
+
+<p>Beyond the physical owners of storage systems, a rapidly growing category of companies sits above the hardware and extracts value through software, orchestration, and real-time optimization. This group includes <strong>VPP operators</strong> such as <em>Fluence, AutoGrid, EnergyHub, GridBeyond, Enel X</em>, along with <strong>analytics and optimization platforms</strong> like <em>TWAICE, Accelex, GridX</em>.</p>
+
+<p>VPP operators <strong>aggregate thousands of BESS into a single controllable virtual resource</strong>. Instead of each device participating separately in demand response or ancillary markets, the aggregator turns them into a fleet capable of responding to grid signals, transforms distributed hardware into a dispatchable asset class.</p>
+
+<p>Optimization platforms operate at a different layer, focusing on <strong>asset performance</strong>, <strong>battery health</strong>, <strong>degradation forecasting</strong>, and <strong>dispatch strategy</strong>. They build analytics models to maximize both revenue and lifetime. Their software supervises the entire operating process and identifies the dispatch profile that creates the highest long-term value. As fleets grow, these platforms increasingly become the “brains” of storage portfolios.</p>
+
+<h2 id="closing-thoughts">Closing thoughts</h2>
+
+<p>Battery systems are becoming a new layer of grid infrastructure — and nowhere is that more visible today than in data centers.</p>
+
+<p>AI data centers are pushing power demand higher, faster, and in more concentrated locations than the grid was originally built to serve. These facilities need enormous amounts of electricity, but they also need that electricity to be clean, stable, and uninterrupted. For a data center, power is not just an operating cost; it is a constraint on growth and a core part of reliability.</p>
+
+<p>That is where BESS becomes strategically important. A battery system can help a data center manage peak demand, smooth short-term load swings, support backup power architecture, improve power quality, and make it easier to integrate onsite solar or contracted renewable power. In some cases, storage can also help reduce the burden on local grid infrastructure by shifting when electricity is drawn from the grid.</p>
+
+<p>This is why understanding the BESS stack matters. Cells dictate lifetime and cost. Packs determine safety and serviceability. PCS shapes how the system behaves electrically. EMS decides when to charge, discharge, stand by, or respond to grid and market signals. For data centers, each layer directly affects uptime, energy cost, interconnection speed, and long-term operating flexibility.</p>
+
+<p>The broader takeaway is that batteries are no longer just a renewable-energy accessory. They are becoming a bridge between the digital infrastructure boom and the physical limits of the power grid. As AI workloads expand, the winners will not only be the companies that build more compute, but also the ones that secure reliable, flexible, and scalable power behind it. BESS is increasingly part of that answer.</p>
+
+    </div>
+    <a class="note-back note-back-foot" href="/#notes">← back to the notebook</a>
+  </article>
+</body>
+</html>

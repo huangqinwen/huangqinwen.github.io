@@ -1,258 +1,330 @@
 <!doctype html>
-<html lang="en"><head>
+<html lang="en" class="no-js">
+<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Qinwen Huang</title>
-  <meta name="description" content="Personal site of Qinwen (Wendy) Huang — on healthcare, data, and building things.">
-
+  <script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('js')</script>
+  <title>Wendy's Open Notes — Qinwen (Wendy) Huang</title>
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <meta name="description" content="Wendy's Open Notes — short notes on health, aging well, and AI × bio, with energy & systems alongside.">
+  <meta property="og:title" content="Wendy's Open Notes — Qinwen (Wendy) Huang">
+  <meta property="og:description" content="Short notes on health, aging well, and AI × bio.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://qinwenhuang.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Hanken+Grotesk:wght@400;500;550;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body>
 
-  <link rel="stylesheet" href="/assets/css/main.css?v=1779471579"><!-- Begin Jekyll SEO tag v2.9.0 -->
-<meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="Qinwen Huang" />
-<meta name="author" content="Qinwen (Wendy) Huang" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Personal site of Qinwen (Wendy) Huang — on healthcare, data, and building things." />
-<meta name="twitter:description" property="og:description" content="Personal site of Qinwen (Wendy) Huang — on healthcare, data, and building things." />
-<link rel="canonical" href="https://huangqinwen.github.io/" />
-<meta property="og:url" content="https://huangqinwen.github.io/" />
-<meta property="og:site_name" content="Qinwen Huang" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Qinwen Huang" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Qinwen (Wendy) Huang"},"description":"Personal site of Qinwen (Wendy) Huang — on healthcare, data, and building things.","headline":"Qinwen Huang","name":"Qinwen Huang","url":"https://huangqinwen.github.io/"}</script>
-<!-- End Jekyll SEO tag -->
-<link type="application/atom+xml" rel="alternate" href="https://huangqinwen.github.io/feed.xml" title="Qinwen Huang" /></head>
-<body class="is-home"><main>
-      <div class="home-layout">
+  <!-- sketch filters (roughen the line icons + soften the molecule drawing) -->
+  <svg width="0" height="0" aria-hidden="true" style="position:absolute">
+    <filter id="sketch" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.022" numOctaves="2" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="2.1" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="sketchSoft" x="-8%" y="-8%" width="116%" height="116%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="2" seed="4" result="n2"/>
+      <feDisplacementMap in="SourceGraphic" in2="n2" scale="1.1" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </svg>
 
-  <aside class="home-sidebar">
-    <p class="sidebar-label">Qinwen (Wendy) Huang</p>
-    <p class="sidebar-sublabel">Index</p>
-    <nav aria-label="Page sections">
-      <ul>
-        <li><a href="#north-star" data-section="north-star">North Star</a></li>
-        <li><a href="#about" data-section="about">About</a></li>
-        <li><a href="#writing" data-section="writing">Writing</a></li>
-        <li><a href="#work" data-section="work">Tinkering</a></li>
-        <li><a href="#publications" data-section="publications">Publications</a></li>
-        <li><a href="#favorites" data-section="favorites">Favorites</a></li>
-        <li><a href="#connect" data-section="connect">Connect</a></li>
-      </ul>
+  <!-- ============ TOP BAR ============ -->
+  <header class="topbar">
+    <a class="brand" href="#cover" data-go="0">
+      <img class="brand-mark" src="/assets/img/favicon.svg" alt="" aria-hidden="true">
+      <span><b>Wendy's Open Notes</b></span>
+    </a>
+    <div class="top-right">
+      <a class="hide-sm" href="https://buttondown.com/qinwenwhuang" target="_blank" rel="noopener" data-modal-open>Subscribe</a>
+      <a href="mailto:qinwen.w.huang@gmail.com">Email</a>
+    </div>
+  </header>
+
+  <!-- ============ NOTEBOOK ============ -->
+  <div class="notebook">
+
+    <!-- bookmark tabs -->
+    <nav class="nb-tabs" aria-label="Notebook contents">
+      <button class="bm active" data-go="0" style="--accent:var(--c-teal)">
+        <img class="bm-ico" src="/assets/img/favicon.svg" alt="" aria-hidden="true">
+        <span class="bm-label">Cover</span></button>
+      <button class="bm" data-go="1" style="--accent:var(--c-ai)">
+        <span class="bm-ico sk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M9 3h6"/><path d="M10 3v5l-4.6 8.4A1.5 1.5 0 0 0 6.7 19h10.6a1.5 1.5 0 0 0 1.3-2.6L14 8V3"/><path d="M7.6 14h8.8"/></svg></span>
+        <span class="bm-label">Who am I</span><span class="bm-no">01</span></button>
+      <button class="bm" data-go="2" style="--accent:var(--c-self)">
+        <span class="bm-ico sk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><polygon points="12,3.4 19.4,7.7 19.4,16.3 12,20.6 4.6,16.3 4.6,7.7"/><circle cx="12" cy="12" r="3.6"/></svg></span>
+        <span class="bm-label">The notes</span><span class="bm-no">02</span></button>
+      <button class="bm" data-go="3" style="--accent:var(--c-bio)">
+        <span class="bm-ico sk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="5.5" cy="12" r="2.4"/><circle cx="12" cy="8" r="2.4"/><circle cx="18.5" cy="12" r="2.4"/><line x1="7.6" y1="11" x2="10" y2="9"/><line x1="14" y1="9" x2="16.5" y2="11"/></svg></span>
+        <span class="bm-label">Build a peptide</span><span class="bm-no">03</span></button>
+      <button class="bm" data-go="4" style="--accent:var(--c-tool)">
+        <span class="bm-ico sk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M12 3l8 4.4v9L12 20.8 4 16.4v-9z"/><path d="M4 7.4l8 4.4 8-4.4"/><line x1="12" y1="11.8" x2="12" y2="20.8"/></svg></span>
+        <span class="bm-label">Things I built</span><span class="bm-no">04</span></button>
+      <button class="bm" data-go="5" style="--accent:var(--c-coral)">
+        <span class="bm-ico sk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4"/><line x1="9.6" y1="12" x2="15" y2="12"/><line x1="9.6" y1="15.4" x2="15" y2="15.4"/></svg></span>
+        <span class="bm-label">Publication</span><span class="bm-no">05</span></button>
+      <button class="bm" data-go="6" style="--accent:var(--c-teal)">
+        <span class="bm-ico sk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="3.5" y="4.5" width="17" height="15" rx="2"/><circle cx="9" cy="9" r="1.5"/><path d="M4.5 17.5l4.5-4.4 3.2 3 2.8-2.8 4.5 4.2"/></svg></span>
+        <span class="bm-label">Field notes</span><span class="bm-no">06</span></button>
+      <button class="bm" data-go="7" style="--accent:var(--c-skin)">
+        <span class="bm-ico sk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="1.9" fill="currentColor" stroke="none"/><path d="M8.2 8.2a5.4 5.4 0 0 0 0 7.6"/><path d="M15.8 8.2a5.4 5.4 0 0 1 0 7.6"/><path d="M5.6 5.6a9 9 0 0 0 0 12.8"/><path d="M18.4 5.6a9 9 0 0 1 0 12.8"/></svg></span>
+        <span class="bm-label">Connect</span><span class="bm-no">07</span></button>
     </nav>
-  </aside>
 
-  <main class="home-content">
+    <!-- the book -->
+    <div class="nb-book">
+      <div class="book-pages" id="pages">
 
-    <!-- ===== North Star ===== -->
-    <section id="north-star" class="section section-hero" data-num="01 / North Star">
-      <p class="eyebrow">North Star</p>
-      <h1 class="display">Stay true to your heart.</h1>
-      <figure class="hero-dune">
-        <img src="/assets/img/hero-zao-wou-ki-triptych.jpg"
-             alt="Zao Wou-Ki, Triptyque (detail) — abstract landscape in deep blue, ink, and ochre"
-             loading="eager" />
-        <figcaption class="hero-caption">
-          <span class="hero-caption-title">Zao Wou-Ki · <em>Triptyque</em></span>
-          <span class="hero-caption-credit">Image: <a href="https://www.christies.com" rel="noopener">Christie&rsquo;s Images Ltd. 2025</a></span>
-        </figcaption>
-      </figure>
-    </section>
+        <!-- 00 · COVER -->
+        <section class="page cover-page active" id="cover" data-order="0" style="--accent:var(--c-teal)" aria-label="Cover">
+          <p class="eyebrow">A working notebook · est. 2024</p>
+          <h1>Wendy's <span class="pin">Open Notes</span></h1>
+          <p class="cover-byline">by Qinwen (Wendy) Huang — Biomedical Engineer | Computer Scientist | Builder</p>
+          <p class="cover-lede">if you are also into <b>health, ai, macro, and history</b>, you will find interesting stuff here.</p>
+          <a class="cover-start" data-go="1" href="#whoami">Open the notebook →</a>
 
-    <!-- ===== About ===== -->
-    <section id="about" class="section" data-num="02 / About">
-      <p class="eyebrow">About</p>
-      <div class="about-body">
-        <p>Hi, I&rsquo;m Wendy. I like building things that make life feel a little clearer, easier, or more human.</p>
+          <img class="cover-paw" src="/assets/img/paw.svg" alt="A small paw print for Duoduo">
+        </section>
 
-        <p>My path hasn&rsquo;t been especially linear, but curiosity has always pulled me forward. I started in biomedical engineering at Johns Hopkins, then went on to a PhD in computer science at Duke, where I worked on <a href="#publications">machine learning for cryo-electron tomography</a> &mdash; a technique for seeing proteins inside cells. That work eventually became tools used by national labs and universities.</p>
+        <!-- 01 · WHO AM I -->
+        <section class="page" id="whoami" data-order="1" style="--accent:var(--c-ai)" aria-label="Who am I">
+          <div class="page-head">
+            <span class="ico-sticker sk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M9 3h6"/><path d="M10 3v5l-4.6 8.4A1.5 1.5 0 0 0 6.7 19h10.6a1.5 1.5 0 0 0 1.3-2.6L14 8V3"/><path d="M7.6 14h8.8"/></svg></span>
+            <span class="page-kicker"><b>§ 01</b> · who am I</span>
+          </div>
+          <h2>A bit about <em>me</em></h2>
+          <img class="prof-pic" src="/assets/img/prof_pic_cutout.png" alt="Qinwen (Wendy) Huang" onerror="this.remove()">
+          <p class="lead">Hi, I'm Wendy. I'm an engineer by training, explorer at heart. I work on enabling AI to drastically improve how we live.</p>
+          <p class="qs-intro">The foundational questions for getting there:</p>
+          <ul class="qs">
+            <li>What actually makes a life better, if we start from what humans are really like?</li>
+            <li>How can AI help people live better, beyond productivity gains?</li>
+            <li>What would we need to build for that to be possible: better models, better data, better feedback loops, better infrastructure?</li>
+          </ul>
+          <p>I don't have clean answers. This notebook is where I work them out.</p>
+          <p class="bio">I did my PhD in Computer Science at Duke, advised by Prof. Alberto Bartesaghi, where I worked on using AI to help us understand protein structures better. Before that, I did my undergrad in biomedical engineering at Johns Hopkins. I spent time at Bain doing AI strategy and private equity work. After Bain, I built and sold AI tools to make private equity work less manual.</p>
+          <p class="bio">Outside of work, I enjoy reading, running, supporting my favorite sports teams, and spending quality time with my cat.</p>
+          <p class="qs-intro quotes-intro">Some quotes I like:</p>
+          <blockquote class="quote">
+            <p>Fear is the mind-killer.</p>
+            <cite>— Frank Herbert, <em>Dune</em></cite>
+          </blockquote>
+          <blockquote class="quote" lang="zh-Hant">
+            <p>長空不礙白雲飛</p>
+            <cite>— 石頭希遷</cite>
+          </blockquote>
+        </section>
 
-        <p>Over time, I became interested in how scientific and technical ideas move from research into the world. I explored venture capital, then worked at Bain on growth strategy and go-to-market questions across AI, software, and healthcare. Later, I built and sold <a href="#work">PowerPoint automation tools</a> after seeing how much repetitive work people quietly accept as &ldquo;just part of the job.&rdquo;</p>
+        <!-- 03 · BUILD A PEPTIDE -->
+        <section class="page" id="build" data-order="3" style="--accent:var(--c-bio)" aria-label="Build a peptide">
+          <div class="page-head">
+            <span class="ico-sticker sk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="5.5" cy="12" r="2.4"/><circle cx="12" cy="8" r="2.4"/><circle cx="18.5" cy="12" r="2.4"/><line x1="7.6" y1="11" x2="10" y2="9"/><line x1="14" y1="9" x2="16.5" y2="11"/></svg></span>
+            <span class="page-kicker"><b>§ 03</b> · a little lab bench</span>
+          </div>
+          <h2>Build a <em>peptide</em></h2>
+          <p>Peptides are short amino-acid chains that can signal hunger, pain, blood pressure, and more; longer ones are polypeptides, and folded functional chains are proteins. Build one—or meet a famous one.</p>
 
-        <p>These days, I find myself coming back to health: how we understand our bodies, how we stay well for longer, and how better tools might help people make sense of their physical, mental, and financial lives without adding more complexity.</p>
+          <div class="pep-challenge pep-challenge-wide" data-pep-challenge>
+            <div class="pep-challenge-head"><span class="pep-rlabel">mini mission</span><button type="button" data-pep-challenge-next>new mission ↻</button></div>
+            <div class="pep-challenge-copy"><p data-pep-challenge-text></p><p class="pep-challenge-status" data-pep-challenge-status aria-live="polite"></p></div>
+          </div>
 
-        <p>Outside of work, I&rsquo;m usually reading, following my curiosity into new topics, or spending time with my cat, <a href="#favorites">Duoduo</a>, who is very good at reminding me to slow down.</p>
+          <div class="pep pep-grid">
+            <div class="pep-left">
+              <div class="pep-stage">
+                <div class="pep-stage-head">
+                  <span class="seq" data-pep-seq><em>empty — start tapping →</em></span>
+                  <span class="pep-views">
+                    <button type="button" data-view="3d" class="active">3D</button>
+                    <button type="button" data-view="struct">2D</button>
+                  </span>
+                </div>
+                <div class="pep-3d" data-pep-3d></div>
+                <div class="pep-structure" data-pep-struct hidden></div>
+                <p class="pep-cap" data-pep-cap></p>
+                <p class="pep-note" data-pep-note aria-live="polite">Pick a famous peptide below for a tiny biology note.</p>
+                <div class="pep-tools">
+                  <button data-pep="undo" title="Remove last">↶ undo</button>
+                  <button data-pep="clear" title="Clear">clear</button>
+                  <button data-pep="surprise" title="Random peptide">surprise</button>
+                  <button data-pep="copy" title="Copy sequence">copy</button>
+                </div>
+              </div>
+              <div class="pep-readout">
+                <div class="metric"><div class="m-label">Length</div><div class="m-val" data-m="len">0 <small>aa</small></div></div>
+                <div class="metric"><div class="m-label">Mol. weight</div><div class="m-val" data-m="mw">0 <small>Da</small></div></div>
+                <div class="metric"><div class="m-label">Charge ~pH7</div><div class="m-val" data-m="charge">0</div></div>
+                <div class="metric"><div class="m-label">Hydrophobic</div><div class="m-val" data-m="hydro">—</div></div>
+              </div>
+              <p class="pep-reading" data-pep-reading>a peptide is just amino acids holding hands.</p>
+            </div>
+
+            <div class="pep-right">
+              <div class="pep-presets">
+                <span class="pep-rlabel">meet a famous peptide</span>
+                <span class="pep-preset-hint">tap one to load its sequence + what it does</span>
+                <div class="pep-preset-list" data-pep-presets></div>
+              </div>
+              <div class="pep-keyboard">
+                <div class="pep-legend">
+                  <span><i style="--lc:var(--c-tool)"></i>hydrophobic</span>
+                  <span><i style="--lc:var(--c-bio)"></i>polar</span>
+                  <span><i style="--lc:var(--c-coral)"></i>acidic (−)</span>
+                  <span><i style="--lc:var(--c-ai)"></i>basic (+)</span>
+                  <span><i style="--lc:var(--c-self)"></i>special</span>
+                </div>
+                <div class="pep-palette" data-pep-palette aria-label="Amino-acid keyboard"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 02 · THE NOTES -->
+        <section class="page" id="notes" data-order="2" style="--accent:var(--c-self)" aria-label="The notes">
+          <div class="page-head">
+            <span class="ico-sticker sk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><polygon points="12,3.4 19.4,7.7 19.4,16.3 12,20.6 4.6,16.3 4.6,7.7"/><circle cx="12" cy="12" r="3.6"/></svg></span>
+            <span class="page-kicker"><b>§ 02</b> · the notes</span>
+          </div>
+          <h2>Writing</h2>
+          <ul class="writing">
+            
+            
+            <li class="w-item">
+              <a class="w-title" href="/writing/leaving-the-structure-behind/">Leaving the Structure Behind <span class="arrow">→</span></a>
+              <span class="w-meta">May 2026 · What makes a life better?</span>
+              <p class="w-sum">What a year of building — from YC to starting over on my own — taught me about people, customers, trust, and judgment.</p>
+            </li>
+            
+            
+            <li class="w-item">
+              <a class="w-title" href="/writing/from-cell-to-system-how-bess-becomes-infrastructure/">From Cell to System — How BESS Becomes Infrastructure <span class="arrow">→</span></a>
+              <span class="w-meta">Nov 2025 · What we'd need to build for it</span>
+              <p class="w-sum"></p>
+            </li>
+            
+            
+            <li class="w-item">
+              <a class="w-title" href="/writing/the-grids-missing-piece-why-energy-storage-is-the-new-power-plant/">The Grid's Missing Piece — Why Energy Storage Is the New Power Plant <span class="arrow">→</span></a>
+              <span class="w-meta">Nov 2025 · What we'd need to build for it</span>
+              <p class="w-sum"></p>
+            </li>
+            
+            
+            <li class="w-item">
+              <a class="w-title" href="/writing/solid-state-battery-from-lab-to-production/">Solid State Battery — From Lab to Production <span class="arrow">→</span></a>
+              <span class="w-meta">Oct 2025 · What we'd need to build for it</span>
+              <p class="w-sum">Automakers, battery manufacturers and governments are racing to capture the next wave of battery revolution. Solid-state battery seems to be a one-stop solution, but how far are we?</p>
+            </li>
+            
+          </ul>
+          <form class="subscribe" action="https://buttondown.com/api/emails/embed-subscribe/qinwenwhuang" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/qinwenwhuang', 'popupwindow')">
+            <label class="subscribe-label" for="bd-email">New notes by email</label>
+            <div class="subscribe-row">
+              <input id="bd-email" class="subscribe-input" type="email" name="email" placeholder="you@email.com" required>
+              <button class="subscribe-btn" type="submit">Subscribe</button>
+            </div>
+          </form>
+        </section>
+
+        <!-- 04 · THINGS I BUILT -->
+        <section class="page" id="work" data-order="4" style="--accent:var(--c-tool)" aria-label="Things I built">
+          <div class="page-head">
+            <span class="ico-sticker sk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M12 3l8 4.4v9L12 20.8 4 16.4v-9z"/><path d="M4 7.4l8 4.4 8-4.4"/><line x1="12" y1="11.8" x2="12" y2="20.8"/></svg></span>
+            <span class="page-kicker"><b>§ 04</b> · selected work</span>
+          </div>
+          <h2>Things I've <em>built</em></h2>
+          <div class="rows">
+            <div class="row"><span class="r-name"><a href="https://theduomi.com/" target="_blank" rel="noopener">theduomi</a> <span class="r-meta">2026 · PowerPoint automation</span></span><a class="r-link" href="https://theduomi.com/" target="_blank" rel="noopener">visit <span class="arrow">↗</span></a><p class="r-desc">A logo-wall and competitive-landscape builder for consulting and investment decks — turning a list of companies into a polished, editable PowerPoint slide.</p></div>
+            <div class="row"><span class="r-name">SlideKit <span class="r-meta">2026 · PowerPoint automation</span></span><a class="r-link" href="https://docs-slidekit.theduomi.com/" target="_blank" rel="noopener">docs <span class="arrow">↗</span></a><p class="r-desc">Private-equity-style PowerPoint automation software for AI agents and recurring workflows. It generates editable, brand-consistent slides from templates and structured data.</p></div>
+            <div class="row"><span class="r-name"><a href="https://nextpyp.app/" target="_blank" rel="noopener">nextPYP</a> <span class="r-meta">open-source cryo-EM/ET · PhD</span></span><a class="r-link" href="https://nextpyp.app/" target="_blank" rel="noopener">visit <span class="arrow">↗</span></a><p class="r-desc">An end-to-end, open-source platform for high-resolution cryo-EM and cryo-ET analysis — from on-the-fly processing and particle picking to refinement and classification at scale.</p></div>
+          </div>
+        </section>
+
+        <!-- 05 · PUBLICATION -->
+        <section class="page" id="publications" data-order="5" style="--accent:var(--c-coral)" aria-label="Publication">
+          <div class="page-head">
+            <span class="ico-sticker sk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4"/><line x1="9.6" y1="12" x2="15" y2="12"/><line x1="9.6" y1="15.4" x2="15" y2="15.4"/></svg></span>
+            <span class="page-kicker"><b>§ 05</b> · publication</span>
+          </div>
+          <h2>Publication</h2>
+          <div class="rows">
+            <div class="row"><span class="r-name"><a href="https://www.nature.com/articles/s41592-023-02045-0" target="_blank" rel="noopener">nextPYP: a comprehensive and scalable platform for cryo-electron tomography</a></span><span class="pub-venue">Nature Methods · 2023</span><p class="r-desc">Makes single-particle cryo-electron tomography practical at scale: an end-to-end framework from raw tilt-series processing through high-resolution refinement and classification, designed to avoid bulky intermediate datasets.</p></div>
+            <div class="row"><span class="r-name"><a href="https://www.nature.com/articles/s41592-024-02403-6" target="_blank" rel="noopener">MiLoPYP: self-supervised molecular pattern mining and particle localization in situ</a></span><span class="pub-venue">Nature Methods · 2024</span><p class="r-desc">Introduces a two-stage, self-supervised pipeline that mines recurring molecular patterns in crowded cryo-ET data, then localizes proteins from sparse labels—reducing manual annotation and supporting diverse molecular targets.</p></div>
+            <div class="row"><span class="r-name"><a href="https://elifesciences.org/articles/80047" target="_blank" rel="noopener">SmartScope: automated systematic evaluation of cryo-EM specimens</a></span><span class="pub-venue el">eLife · 2022</span><p class="r-desc">Automates cryo-EM specimen screening with deep-learning feature detection and classification, plus a web interface for remote microscope control, annotation, and iterative model improvement.</p></div>
+          </div>
+          <a class="scholar-link" href="https://scholar.google.com/citations?user=LOPUXfUAAAAJ" target="_blank" rel="noopener">Full list on Google Scholar →</a>
+        </section>
+
+        <!-- 06 · FIELD NOTES -->
+        <section class="page" id="field-notes" data-order="6" style="--accent:var(--c-teal)" aria-label="Field notes">
+          <div class="page-head">
+            <span class="ico-sticker sk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="3.5" y="4.5" width="17" height="15" rx="2"/><circle cx="9" cy="9" r="1.5"/><path d="M4.5 17.5l4.5-4.4 3.2 3 2.8-2.8 4.5 4.2"/></svg></span>
+            <span class="page-kicker"><b>§ 06</b> · field notes</span>
+          </div>
+          <h2>A few <em>field notes</em></h2>
+          <p class="field-intro">Small pauses from the road: places, animals, and moments I wanted to keep.</p>
+          <div class="field-grid">
+            <button class="field-photo" type="button" data-lightbox-open data-lightbox-src="/assets/img/Image_20260521230537_8_855.jpeg" data-lightbox-alt="Duoduo, Wendy's cat baby, on his cat tree" data-lightbox-caption="Duoduo, my cat baby"><img src="/assets/img/Image_20260521230537_8_855.jpeg" alt="Duoduo, Wendy's cat baby, on his cat tree" loading="lazy"><span>Duoduo, my cat baby</span></button>
+            <button class="field-photo" type="button" data-lightbox-open data-lightbox-src="/assets/img/Image_20260521230534_7_855.jpg" data-lightbox-alt="Elephants on the savanna in Tanzania" data-lightbox-caption="Tanzania"><img src="/assets/img/Image_20260521230534_7_855.jpg" alt="Elephants on the savanna in Tanzania" loading="lazy"><span>Tanzania</span></button>
+            <button class="field-photo" type="button" data-lightbox-open data-lightbox-src="/assets/img/Image_20260521230539_9_855.jpg" data-lightbox-alt="Travertine pools in Pamukkale" data-lightbox-caption="Pamukkale"><img src="/assets/img/Image_20260521230539_9_855.jpg" alt="Travertine pools in Pamukkale" loading="lazy"><span>Pamukkale</span></button>
+            <button class="field-photo" type="button" data-lightbox-open data-lightbox-src="/assets/img/Image_20260521230559_11_855.jpg" data-lightbox-alt="Walking toward a hillside on the Isle of Skye" data-lightbox-caption="Isle of Skye"><img src="/assets/img/Image_20260521230559_11_855.jpg" alt="Walking toward a hillside on the Isle of Skye" loading="lazy"><span>Isle of Skye</span></button>
+            <button class="field-photo" type="button" data-lightbox-open data-lightbox-src="/assets/img/Image_20260521232612_18_855.jpg" data-lightbox-alt="Mirror reflection at Lake Tuz" data-lightbox-caption="Lake Tuz"><img src="/assets/img/Image_20260521232612_18_855.jpg" alt="Mirror reflection at Lake Tuz" loading="lazy"><span>Lake Tuz</span></button>
+            <button class="field-photo" type="button" data-lightbox-open data-lightbox-src="/assets/img/Image_20260521233020_22_855.jpg" data-lightbox-alt="A black cat at an outdoor dinner table in Tuscany" data-lightbox-caption="Tuscany"><img src="/assets/img/Image_20260521233020_22_855.jpg" alt="A black cat at an outdoor dinner table in Tuscany" loading="lazy"><span>Tuscany</span></button>
+          </div>
+        </section>
+
+        <!-- 07 · CONNECT -->
+        <section class="page" id="connect" data-order="7" style="--accent:var(--c-skin)" aria-label="Connect">
+          <div class="page-head">
+            <span class="ico-sticker sk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="1.9" fill="currentColor" stroke="none"/><path d="M8.2 8.2a5.4 5.4 0 0 0 0 7.6"/><path d="M15.8 8.2a5.4 5.4 0 0 1 0 7.6"/><path d="M5.6 5.6a9 9 0 0 0 0 12.8"/><path d="M18.4 5.6a9 9 0 0 1 0 12.8"/></svg></span>
+            <span class="page-kicker"><b>§ 07</b> · connect</span>
+          </div>
+          <h2>Connect with <em>me</em></h2>
+          <p>I'd love to chat. I've also done a lot of guidance and advising work, so feel free to reach out.</p>
+          <nav class="links" aria-label="Ways to reach me">
+            <a href="https://buttondown.com/qinwenwhuang" target="_blank" rel="noopener" data-modal-open><span class="l-left"><span class="l-ico sk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 5h16M4 9h16M4 13l8 5 8-5"/></svg></span><span class="l-label">Wendy's Open Notes — newsletter</span></span><span class="l-handle">subscribe →</span></a>
+            <a href="mailto:qinwen.w.huang@gmail.com"><span class="l-left"><span class="l-ico sk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="3.5" y="5.5" width="17" height="13" rx="2"/><path d="M4 7l8 6 8-6"/></svg></span><span class="l-label">Email</span></span><span class="l-handle">qinwen.w.huang@gmail.com ↗</span></a>            <a href="https://scholar.google.com/citations?user=LOPUXfUAAAAJ" target="_blank" rel="noopener"><span class="l-left"><span class="l-ico sk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 3 2 8l10 5 10-5z"/><path d="M5 10.5V16c0 1.4 3.1 3 7 3s7-1.6 7-3v-5.5"/></svg></span><span class="l-label">Google Scholar</span></span><span class="l-handle">publications ↗</span></a>          </nav>
+        </section>
+
       </div>
-    </section>
 
-    <!-- ===== Writing ===== -->
-    <section id="writing" class="section" data-num="03 / Writing">
-      <p class="eyebrow">Writing</p>
-      <p class="section-intro">A few threads I keep coming back to.</p>
-      <ol class="numbered-list numbered-list-rich">
-        
-        <li>
-          <strong><a href="https://qinwenwhuang.substack.com/t/fieldnotes" target="_blank" rel="noopener">Field Notes</a></strong>
-          <p>Learnings from building startups, and assorted thinking.</p>
-        </li>
-        
-        <li>
-          <strong><a href="https://qinwenwhuang.substack.com/t/ai" target="_blank" rel="noopener">Everything AI</a></strong>
-          <p>Models, applications, energy, and societal stakes.</p>
-        </li>
-        
-        <li>
-          <strong><a href="https://qinwenwhuang.substack.com/t/research" target="_blank" rel="noopener">Research</a></strong>
-          <p>Cryo-electron tomography and ML for biology, from my PhD work.</p>
-        </li>
-        
-        <li>
-          <strong><a href="https://qinwenwhuang.substack.com/t/health" target="_blank" rel="noopener">Health</a></strong>
-          <p>Staying healthy, aging well, looking young.</p>
-        </li>
-        
-      </ol>
-      <a class="all-writing-link" href="https://qinwenwhuang.substack.com" target="_blank" rel="noopener">All writing &rarr;</a>
-    </section>
-
-    <!-- ===== Tinkering ===== -->
-    <section id="work" class="section" data-num="04 / Tinkering">
-      <p class="eyebrow">Tinkering</p>
-      <ol class="numbered-list numbered-list-rich">
-        <li>
-          <strong><a href="https://theduomi.com/" target="_blank" rel="noopener">Logo Wall Builder</a></strong>
-          <p>A logo wall builder for consulting decks and competitive landscapes. Used by analysts and consultants at investment banks and PE firms.</p>
-        </li>
-        <li>
-          <strong><a href="https://docs-slidekit.theduomi.com/" target="_blank" rel="noopener">SlideKit</a></strong>
-          <p>A PowerPoint backend for AI agents and automated workflows. Generates branded decks that match your .pptx template.</p>
-        </li>
-        <li>
-          <strong><a href="https://nextpyp.app/" target="_blank" rel="noopener">nextPYP</a></strong>
-          <p>A cryo-EM/ET data processing platform for labs and universities, based on my PhD work.</p>
-        </li>
-      </ol>
-    </section>
-
-    <!-- ===== Publications ===== -->
-    <section id="publications" class="section" data-num="05 / Selected Publications">
-      <p class="eyebrow">Selected Publications</p>
-      <ol class="numbered-list numbered-list-rich">
-        <li>
-          <strong><a href="https://elifesciences.org/articles/80047" target="_blank" rel="noopener">SmartScope: automated systematic evaluation of cryo-EM specimens</a></strong>
-          <p>eLife, 2022</p>
-        </li>
-        <li>
-          <strong><a href="https://www.nature.com/articles/s41592-023-02045-0" target="_blank" rel="noopener">nextPYP: a comprehensive and scalable platform for cryo-electron tomography</a></strong>
-          <p>Nature Methods, 2023</p>
-        </li>
-        <li>
-          <strong><a href="https://www.nature.com/articles/s41592-024-02403-6" target="_blank" rel="noopener">MiLoPYP: self-supervised molecular pattern mining and particle localization in situ</a></strong>
-          <p>Nature Methods, 2024</p>
-        </li>
-        <li>
-          <strong><a href="https://link.springer.com/chapter/10.1007/978-3-031-19803-8_38" target="_blank" rel="noopener">Accurate detection of proteins in cryo-electron tomograms from sparse labels</a></strong>
-          <p>ECCV, 2022</p>
-        </li>
-      </ol>
-    </section>
-
-    <!-- ===== Favorites ===== -->
-    <section id="favorites" class="section" data-num="06 / Favorites">
-      <p class="eyebrow">Favorites</p>
-      <div class="favorites-grid">
-        <div class="fav-card">
-          <div class="fav-img">
-            <img src="/assets/img/Image_20260521230537_8_855.jpg" alt="Duoduo on his cat tree" loading="lazy" />
-          </div>
-          <p>Duoduo</p>
-        </div>
-        <div class="fav-card">
-          <div class="fav-img">
-            <img src="/assets/img/Image_20260521230657_12_855.jpg" alt="Duoduo asleep in a boucle chair" loading="lazy" />
-          </div>
-          <p>Duoduo</p>
-        </div>
-        <div class="fav-card">
-          <div class="fav-img">
-            <img src="/assets/img/Image_20260521230534_7_855.jpg" alt="Elephants on the savanna" loading="lazy" />
-          </div>
-          <p>Tanzania</p>
-        </div>
-        <div class="fav-card">
-          <div class="fav-img">
-            <img src="/assets/img/Image_20260521230557_10_855.jpg" alt="Ostrich in grassland" loading="lazy" />
-          </div>
-          <p>Tanzania</p>
-        </div>
-        <div class="fav-card">
-          <div class="fav-img">
-            <img src="/assets/img/Image_20260521230539_9_855.jpg" alt="Pamukkale travertine pools" loading="lazy" />
-          </div>
-          <p>Pamukkale</p>
-        </div>
-        <div class="fav-card">
-          <div class="fav-img">
-            <img src="/assets/img/Image_20260521230559_11_855.jpg" alt="Walking toward a hillside" loading="lazy" />
-          </div>
-          <p>Isle of Skye</p>
-        </div>
-        <div class="fav-card">
-          <div class="fav-img">
-            <img src="/assets/img/Image_20260521232612_18_855.jpg" alt="Lake Tuz mirror reflection" loading="lazy" />
-          </div>
-          <p>Lake Tuz</p>
-        </div>
-        <div class="fav-card">
-          <div class="fav-img">
-            <img src="/assets/img/Image_20260521233020_22_855.jpg" alt="Black cat at an outdoor dinner table in Tuscany" loading="lazy" />
-          </div>
-          <p>Black cat at an outdoor dinner table in Tuscany</p>
-        </div>
+      <!-- page chrome -->
+      <div class="nb-chrome">
+        <button class="nb-btn prev" data-nav="prev"><span>←</span> prev</button>
+        <span class="nb-count"><b id="pg-cur">00</b> / 07</span>
+        <button class="nb-btn next" data-nav="next">next <span>→</span></button>
       </div>
-    </section>
+    </div>
+  </div>
 
-    <!-- ===== Connect / Signup ===== -->
-    <section id="connect" class="section signup-section" data-num="07 / Connect">
-      <p class="eyebrow">Stay in Touch</p>
-      <p>I can be reached at <a href="mailto:qinwen.w.huang@gmail.com">qinwen.w.huang@gmail.com</a>.</p>
-      <div class="signup-actions">
-        <a class="btn" href="https://qinwenwhuang.substack.com" target="_blank" rel="noopener">Subscribe on Substack &rarr;</a>
-        <a class="btn btn-secondary" href="mailto:qinwen.w.huang@gmail.com">Email me &rarr;</a>
-      </div>
-    </section>
+  <footer class="foot">
+    <span>© <span id="year">2026</span> Qinwen (Wendy) Huang</span>
+  </footer>
 
-  </main>
-
-  
-</div>
-
-<section class="quote-section" aria-label="Closing quotes">
-  <blockquote class="quote-block quote-dune">
-    <p class="quote-text">Fear is the mind-killer</p>
-    <cite class="quote-attr">— Frank Herbert</cite>
-  </blockquote>
-
-  <span class="quote-divider" aria-hidden="true"></span>
-
-  <blockquote class="quote-block quote-zen">
-    <p class="quote-text quote-zh" lang="zh">長空不礙白雲飛</p>
-    <cite class="quote-attr">— 石頭希遷</cite>
-  </blockquote>
-</section>
-
-<script>
-(function() {
-  const links = document.querySelectorAll('.home-sidebar a[data-section]');
-  const sections = document.querySelectorAll('.home-content section[id]');
-  if (!('IntersectionObserver' in window) || !sections.length) return;
-
-  const obs = new IntersectionObserver((entries) => {
-    entries.forEach(e => {
-      if (e.isIntersecting) {
-        const id = e.target.id;
-        links.forEach(l => l.classList.toggle('active', l.dataset.section === id));
-      }
-    });
-  }, { rootMargin: '-40% 0px -50% 0px', threshold: 0 });
-
-  sections.forEach(s => obs.observe(s));
-})();
-</script>
-
-
-    </main></body>
+  <div class="modal" data-modal hidden>
+    <div class="modal-backdrop" data-modal-close></div>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-label="Subscribe to Wendy's Open Notes">
+      <button class="modal-x" type="button" data-modal-close aria-label="Close">&times;</button>
+      <h3 class="modal-title">Subscribe to Wendy's Open Notes</h3>
+      <p class="modal-sub">New notes in your inbox — no spam, unsubscribe anytime.</p>
+      <form class="subscribe" action="https://buttondown.com/api/emails/embed-subscribe/qinwenwhuang" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/qinwenwhuang', 'popupwindow')">
+        <div class="subscribe-row">
+          <input class="subscribe-input" type="email" name="email" placeholder="you@email.com" required>
+          <button class="subscribe-btn" type="submit">Subscribe</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="lightbox" data-lightbox hidden>
+    <div class="lightbox-backdrop" data-lightbox-close></div>
+    <figure class="lightbox-panel" role="dialog" aria-modal="true" aria-label="Expanded field note">
+      <button class="lightbox-x" type="button" data-lightbox-close aria-label="Close image">&times;</button>
+      <img data-lightbox-image src="" alt="">
+      <figcaption data-lightbox-caption></figcaption>
+    </figure>
+  </div>
+  <script src="/assets/js/site.js" defer></script>
+</body>
 </html>

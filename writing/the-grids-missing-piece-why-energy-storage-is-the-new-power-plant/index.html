@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Grid's Missing Piece — Why Energy Storage Is the New Power Plant — Wendy's Open Notes</title>
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <meta name="description" content="">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Hanken+Grotesk:wght@400;500;550;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body class="note-body">
+  <article class="note-page">
+    <a class="note-back" href="/#notes">← back to the notebook</a>
+    <h1 class="note-h1">The Grid's Missing Piece — Why Energy Storage Is the New Power Plant</h1>
+    
+    <p class="note-byline">November 10, 2025 · What we'd need to build for it</p>
+    <div class="note-content">
+      <h3 id="at-a-glance"><strong>At a Glance</strong></h3>
+
+<ul>
+  <li><strong>Why It Matters:</strong> Renewables and electrification create volatility in both supply and demand — storage restores flexibility</li>
+  <li><strong>Core Function:</strong> Storage shifts energy across <strong>time</strong> (charging and discharging) and <strong>space</strong> (relieving congestion, acting as virtual transmission)</li>
+  <li><strong>Technology Shift:</strong> From fixed, geography-bound systems like pumped hydro to fast, modular Battery Energy Storage Systems (BESS), energy storage has evolved rapidly—<strong>BESS now stands as the fastest-growing segment of the entire industry</strong></li>
+</ul>
+
+<p><em><strong>This is Part 1 of our Energy Storage series — “Energy Storage Fundamentals.”</strong> Here, we build a foundation for why energy storage matters, and how it has evolved from a supporting function to a central pillar of modern power systems.</em></p>
+
+<p><em><strong>Part 2</strong> takes a deep dive into <strong>grid-scale battery energy storage systems (BESS)</strong> — unpacking their architecture, performance metrics, and the engineering trade-offs that define today’s leading technologies.</em></p>
+
+<h3 id="why-everyone-is-talking-about-energy-storage"><strong>Why Everyone Is Talking About Energy Storage</strong></h3>
+
+<p>Energy storage has become one of the hottest topics in energy today - especially with the rise of AI data centers. While many forms of energy can be stored—thermal, mechanical—the majority of storage efforts now focus on <strong>electricity</strong>, because it underpins nearly everything in modern life. Unlike fuels, electricity cannot be stockpiled; it has to be used the moment it is generated or converted into another form. This fundamental transience is what makes storage indispensable - it provides the bridge between generation and use, turning a fleeting current into a reliable source.</p>
+
+<p><img src="/assets/img/notes/the-grids-missing-piece-why-energy/01.png" alt="" /></p>
+
+<p>Energy storage installations globally will keep gaining momentum over the next decade as other markets pick up pace, driven first by the US and China and then rapidly by Europe and the rest of Asia-Pacific. This is not a niche experiment — it’s a foundational shift in how the world plans to run power systems.</p>
+
+<hr />
+
+<h4 id="how-electricity-reaches-you--and-where-it-breaks-down">How Electricity Reaches You — and Where It Breaks Down</h4>
+
+<p>Before we talk about why storage is essential, it helps to understand how electricity actually gets to you today. Nearly everything you plug in is supplied by a vast, continent-scale machine—the electric grid—that must keep supply and demand in perfect balance 24/7. Power plants feed electricity onto high-voltage transmission lines; substations step that voltage down and route it through distribution feeders to homes, businesses, and data centers. Regional operators constantly monitor this system, matching generation and consumption to maintain a steady frequency. If supply lags, frequency drops; if it exceeds demand, frequency rises—either way, reliability suffers.</p>
+
+<p>Because electricity can’t be “parked” on the wires, historically, grid balance was maintained by dispatching controllable power plants — scheduling base load coal and nuclear for steady output and ramping up gas plants to cover short-term spikes. Demand rose and fell in predictable daily and seasonal cycles, and since most generation was controllable, grid operators - guided by real-time monitoring and dispatch systems - could plan, schedule, and fine-tune supply in real time.</p>
+
+<p>That balance has become far harder to maintain today. The rise of wind, solar, and distributed generation — combined with electrified transport and data-hungry AI industries consumption — has made both supply and demand far more volatile.</p>
+
+<p><strong>So why not just build more wires or more power plants to handle the volatility?</strong> Intuitively, it seems like expanding transmission and adding generation should solve the problem—more ways to move power, more power to move. But that’s not really the case. Transmission can only shift electricity across space, not time. More generation helps only when supply is scarce, not when it’s misaligned. The <strong>core challenge</strong> isn’t a shortage of generation capacity, but a <strong>mismatch in when and where electricity is available</strong>—<strong>a problem of both time and space</strong>.</p>
+
+<h4 id="the-time-mismatch---when-power-arrives-vs-when-its-needed"><strong>The Time Mismatch - When power arrives vs. when it’s needed</strong></h4>
+
+<p>As renewables make up a growing share of global electricity generation, keeping the grid balanced has become far more complex. The shift toward wind and solar is driven by the race to cut carbon emissions and reach net-zero goals, not merely to meet incremental demand. <strong>But unlike thermal plants, renewables cannot be dispatched on command</strong> — <strong>they only produce power when the sun shines or the wind blows.</strong> At low penetration, this intermittency is manageable. <a href="https://www.irena.org/News/pressreleases/2025/Mar/Record-Breaking-Annual-Growth-in-Renewable-Power-Capacity">Yet the scale is changing rapidly: global renewable additions reached roughly</a> <strong><a href="https://www.irena.org/News/pressreleases/2025/Mar/Record-Breaking-Annual-Growth-in-Renewable-Power-Capacity">4500 GW in 2024</a></strong>. Many regions are already installing renewables faster than the grid can absorb their output during periods of high generation and low demand.</p>
+
+<p>This temporal imbalance plays out daily and seasonally. Solar generation peaks at midday, when consumption is moderate, while evening hours — when people return home and EVs begin charging — bring steep demand spikes known as the “duck curve.” <a href="https://www.eia.gov/todayinenergy/detail.php?id=65364">In California, over 20 % of solar generation was curtailed during certain spring 2024 afternoons due to oversupply,</a> <a href="https://www.caiso.com/documents/2024-special-report-on-battery-storage-may-29-2025.pdf">while batteries supplied roughly 8–9 % of evening-peak demand</a>. Similarly, wind often peaks overnight, when load is lowest. <a href="https://www.reuters.com/world/china/chinas-wind-solar-curtailment-rising-2025-08-01">Northern China recorded curtailment rates above 15 % in winter nights, forcing turbines offline despite available wind</a>.</p>
+
+<p>Storage directly addresses this timing gap. <strong>It captures surplus generation when demand is low and releases it when power is most needed - turning temporal volatility into usable reliability.</strong></p>
+
+<p><img src="/assets/img/notes/the-grids-missing-piece-why-energy/02.png" alt="" /></p>
+
+<p><em>Figure 2: The evolution of California’s grid system/net load in a typical summer day (total demand minus solar generation) between 2022 and 2025. The shaded “duck” shape visualizes how midday solar generation increasingly depresses net demand. Over time, the belly of the “duck” deepens — representing oversupply and curtailment risks during sunny hours — while the neck steepens, reflecting sharper evening ramps that stress grid flexibility. This highlights why energy storage and demand shifting have become essential to grid stability.</em></p>
+
+<h4 id="geographic-mismatch--where-the-power-is-made-vs-where-its-used"><strong>Geographic mismatch — where the power is made vs. where it’s used</strong></h4>
+
+<p>Even if timing were perfect, the locations of generation and consumption often don’t match. Renewable resources are often concentrated far from where electricity is consumed. Large-scale renewables are often sited where land and wind or solar resources are abundant - for example, the U.S. Southwest, China’s northwest, Australia’s interior, the North Sea - while demand clusters in urban and industrial corridors along coasts and population centers.</p>
+
+<p>Building new transmission infrastructure (e.g., Ultra high-voltage lines) can help move energy across space, but it is expensive, slow to permit, and limited in flexibility. <strong>Energy storage offers a complementary solution: <a href="https://www.mdpi.com/1996-1073/18/4/902?">acting as a virtual transmission asset</a>.</strong> By storing energy near generation sites or load centers, <strong>storage can ease congestion and reduce curtailment without new power lines</strong>. Studies show that deploying storage equivalent to roughly 15% of transmission capacity can provide comparable balancing benefits. Projects in Hebei (China), California’s Central Valley, and Texas’ ERCOT interconnection points already demonstrate measurable reductions in congestion and stranded power.</p>
+
+<h4 id="downstream-demand-surge">Downstream Demand Surge</h4>
+
+<p>While electricity supply grows more variable, the demand side is not moving towards auto-balancing, instead becoming heavier and less flexible. Electrification is accelerating across sectors - EVs, large AI data centers, and electrified manufacturing are driving rapid load growth that nearly doubled global electricity demand in 2024 compared to its decade-long average. These loads are often stiff, rapid-ramping, and concentrated in already stressed regions. In the U.S., <a href="https://www.reuters.com/technology/us-data-centers-electricity-demand-2030-2025-05-15">data centers alone are projected to consume 6–8% of total electricity by 2030</a>, <a href="https://www.byd.com/mea/news-list/byd-unveils-super-e-platform-with-megawatt-flash-charging">while EV superchargers can draw up to 1 MW per vehicle</a>. Meanwhile, new electrified manufacturing hubs and hydrogen projects are adding continuous high loads, often in already constrained areas.</p>
+
+<p>This surge compounds the renewable mismatch: the grid must now deliver more total energy while also compensating for more volatility. The result is a system that requires both capacity and flexibility — the ability to store, shift, and dispatch power dynamically across time and geography.</p>
+
+<p>Energy storage sits precisely at this intersection. <strong>It absorbs surplus power when it is cheap or stranded, then releases it exactly where and when it is valuable.</strong> It tames volatility from variable renewables upstream and stabilizes the inflexible demands downstream. In doing so, it restores control to a system that is otherwise losing it.</p>
+
+<p>This marks a turning point - storage is no longer mere “backup”. It is <strong>flexibility infrastructure</strong> - the connective tissue that lets the modern grid handle both the clean energy transition and the electrification surge at the same time.</p>
+
+<hr />
+
+<h3 id="so-how-do-we-store-energy"><strong>So How Do We Store Energy?</strong></h3>
+
+<p>The modern grid faces many kinds of imbalances — but not all imbalances look the same. Some last seconds, others stretch across seasons; some occur on remote wind farms, others in dense city substations. These different challenges have inspired an equally diverse set of storage technologies. Today’s landscape spans a spectrum — <strong>pumped hydro, compressed air, thermal, hydrogen, and electrochemical systems</strong> — each trading off cost, duration, and flexibility.</p>
+
+<p>But this variety didn’t appear overnight. It reflects a long progression: from fixed, geography-bound systems to fast, modular ones — each generation of storage engineered to meet the grid’s changing demands. Understanding these trade-offs reveals why certain technologies dominate specific niches today — and why <strong>batteries, in particular, have risen fastest.</strong></p>
+
+<iframe title="Main Energy Storage Methods" aria-label="Interactive chart" src="https://datawrapper.dwcdn.net/HoAkj/2/" scrolling="no" frameborder="0" style="width:0;min-width:100%;border:none;" height="444"></iframe>
+<p><em>Main Energy Storage Methods</em></p>
+
+<p>Early large-scale solutions didn’t involve chemistry at all, but gravity. Pumped-hydro systems, which send water uphill when power is abundant and release it later to spin turbines, became the backbone of grid storage in the 20th century — <a href="https://www.irena.org/publications/2023/Jun/Changing-role-of-hydropower">and they still account for more than 40% of global capacity today</a>. It has lowest $/kWh at scale, multi-hour to multi-day durations. <a href="https://www.reuters.com/sustainability/climate-energy/china-track-exceed-2030-pumped-storage-hydro-target-by-8-industry-body-says-2025-06-24/">China has been dominating PSH, added</a> <strong><a href="https://www.reuters.com/sustainability/climate-energy/china-track-exceed-2030-pumped-storage-hydro-target-by-8-industry-body-says-2025-06-24/">7.75 GW</a></strong> <a href="https://www.reuters.com/sustainability/climate-energy/china-track-exceed-2030-pumped-storage-hydro-target-by-8-industry-body-says-2025-06-24/">in 2024 and is on track for</a> <strong><a href="https://www.reuters.com/sustainability/climate-energy/china-track-exceed-2030-pumped-storage-hydro-target-by-8-industry-body-says-2025-06-24/">~130 GW by 2030</a></strong><a href="https://www.reuters.com/sustainability/climate-energy/china-track-exceed-2030-pumped-storage-hydro-target-by-8-industry-body-says-2025-06-24/">.</a></p>
+
+<p><img src="/assets/img/notes/the-grids-missing-piece-why-energy/03.png" alt="" /></p>
+
+<p><em>Figure 3 : Schematic of four energy storage system.</em></p>
+
+<p>But gravity has intrinsic limits. It can only solve imbalance in a longer timeframe but fail to handle demand peaks like five minutes EV supercharging. Pumped storage requires highly specific geography, and building new sites takes years permitting and environmental review. It’s active in balancing the grid, but not agile — suitable for large, predictable imbalances, not for the fast, local fluctuations of a renewable-heavy system. These constraints pushed engineers to look for something <strong>more agile and deployable anywhere</strong>, not just in mountain valleys.</p>
+
+<p>That flexibility came from electrochemistry. There are some solutions like <strong>flow batteries</strong> and <strong>hydrogen</strong>, but both come with practical and economic constraints that have kept them from wide deployment so far.</p>
+
+<p><strong>Flow batteries</strong> store energy in liquid electrolytes contained in external tanks, allowing their power and capacity to scale independently. However, their <strong>low energy density</strong>, <strong>complex fluid systems</strong>, and <strong>high capital cost</strong> have limited them mostly to pilot projects and niche applications. While research continues, widespread commercialization remains years behind.</p>
+
+<p><strong>Hydrogen</strong>, on the other hand, offers the promise of multi-day or even seasonal storage. It can absorb massive amounts of surplus renewable power through electrolysis, store it as gas, and later reconvert it to electricity via fuel cells. Yet the entire green-hydrogen generation process chain requires <strong>costly infrastructure for compression, transport, and safety management.</strong></p>
+
+<p><img src="/assets/img/notes/the-grids-missing-piece-why-energy/04.png" alt="" /></p>
+
+<p><em>Figure 4: Schematic of battery energy storage system.</em></p>
+
+<p>From the 1990s to 2010s, <strong>lithium-ion technology</strong> matured for consumer electronics and electric vehicles, setting the stage for grid-scale storage. As costs fell and performance improved, batteries began migrating from handheld devices to power systems. Today it has evolved into an active and flexible grid infrastructure. <strong>Grid-scale battery energy storage systems (BESS) are being built as core assets that stabilize, optimize, and monetize grid operations.</strong></p>
+
+<p><strong><a href="https://www.caiso.com/documents/2024-special-report-on-battery-storage-may-29-2025.pdf">BESS can respond within milliseconds, far faster than conventional power plants and storage like pumped hydro</a></strong><a href="https://www.caiso.com/documents/2024-special-report-on-battery-storage-may-29-2025.pdf">.</a> This agility allows them to perform frequency regulation, instantly absorbing or injecting power to maintain the grid’s 50/60 Hz balance. They also provide peak shaving and load shifting, charging during low-cost or low-demand periods and discharging during evening peaks. On the system side, the small and modular design enabled the smoothing of the micro imbalance happened in the capillaries of the grid system. Utility providers deploy them as virtual power plants or “non-wires alternatives,” using storage to relieve local congestion and defer expensive grid upgrades.</p>
+
+<h4 id="onwards"><strong>Onwards</strong></h4>
+
+<p>The story of energy storage is ultimately a story of flexibility. Legacy systems like <strong>pumped hydro</strong> remain invaluable for large-scale, long-duration balancing — but they are fixed, slow to build, and geographically constrained. In contrast, <strong>BESS</strong> represents a new class of infrastructure: modular, fast, and deployable almost anywhere. This feature makes BESS the fastest-growing segment in the entire energy storage landscape. As manufacturing scale drives costs down and performance continues to improve, BESS is rapidly moving from pilot projects to mainstream infrastructure, reshaping how power systems are designed and operated.</p>
+
+<p>In the next part of this series, we’ll focus entirely on BESS: how cells become grid assets, what drives cost curves, who are the key players and how do they participate in the fusing market of grid and energy storage.</p>
+
+    </div>
+    <a class="note-back note-back-foot" href="/#notes">← back to the notebook</a>
+  </article>
+</body>
+</html>

@@ -1,1 +1,553 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://huangqinwen.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://huangqinwen.github.io/" rel="alternate" type="text/html" /><updated>2026-05-22T10:39:39-07:00</updated><id>https://huangqinwen.github.io/feed.xml</id><title type="html">Qinwen Huang</title><subtitle>Personal site of Qinwen (Wendy) Huang — on healthcare, data, and building things.</subtitle><author><name>Qinwen (Wendy) Huang</name></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://huangqinwen.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://huangqinwen.github.io/" rel="alternate" type="text/html" /><updated>2026-06-21T18:56:45-07:00</updated><id>https://huangqinwen.github.io/feed.xml</id><title type="html">Qinwen Huang</title><subtitle>Personal site of Qinwen (Wendy) Huang — on healthcare, data, and building things.</subtitle><author><name>Qinwen (Wendy) Huang</name></author><entry><title type="html">Leaving the Structure Behind</title><link href="https://huangqinwen.github.io/writing/leaving-the-structure-behind/" rel="alternate" type="text/html" title="Leaving the Structure Behind" /><published>2026-05-01T00:00:00-07:00</published><updated>2026-05-01T00:00:00-07:00</updated><id>https://huangqinwen.github.io/writing/leaving-the-structure-behind</id><content type="html" xml:base="https://huangqinwen.github.io/writing/leaving-the-structure-behind/"><![CDATA[<p>Over the last year, I started my founder journey by trying to solve a problem I had felt firsthand at Bain: watching smart people spend too much time on manual workflows that should have been automated.</p>
+
+<p>It started with an unexpected high. We got into YC the first time we applied — before writing a single line of code. For a moment, it felt like the startup script was working. Two months later, I left YC mid-batch after a co-founder split.</p>
+
+<p>After leaving, I had to decide whether I still wanted to keep building. I was now on my own, but I already had customer calls lined up, so I kept going. I kept taking discovery calls, listening to users, and following the pain points that kept coming up. That eventually led me to PowerPoint automation tools, which I continued building and ultimately sold.</p>
+
+<p>Along the way, I learned more than I expected — about what it means to operate as a founder, how to sell and earn trust, how to keep doing the hard work when the path is uncertain, and how to stay open to failure without letting it define the outcome.</p>
+
+<hr />
+
+<h4 id="1-learning-people-matter-more-than-almost-everything-but-choosing-the-right-people-is-only-half-the-lesson--the-other-half-is-learning-how-to-communicate-before-misalignment-turns-into-something-bigger">#1 Learning: People matter more than almost everything. But choosing the right people is only half the lesson — the other half is learning how to communicate before misalignment turns into something bigger</h4>
+
+<p>When we started, I thought a strong founding team meant smart people with complementary skills. That is part of it, but it is not enough. In a startup, you are not just choosing someone’s skill set. You are choosing their judgment under pressure, their sense of urgency, their communication style, their empathy, and their ability to make other people feel safe taking risks with them.</p>
+
+<p>Some of our misalignment showed up first in small operational moments. At the time, I treated those moments as isolated frustrations. Looking back, they were early signals that we had different instincts around urgency, risk, ownership, and how decisions should get made under pressure. The bigger issue was not any single title or task. It was that we had not fully aligned on roles, responsibilities, decision-making, and what each person needed to feel ownership and trust in the team.</p>
+
+<p>At the time, there were also real external constraints — including immigration-related ones — that made every decision feel more urgent. I felt like I had limited room to slow things down, push for clarity, or walk away cleanly, so I told myself it was better to keep moving. Looking back, I should have paid more attention to the discomfort I was feeling. When your gut keeps telling you something is not right, it is usually pointing to something real, even if you cannot fully articulate it yet.</p>
+
+<p>I had raised some concerns, but we had not truly resolved them. By the time those concerns came up again, they landed much harder than they might have if we had kept the conversation open from the beginning. From my side, the concerns had never fully gone away. From the other side, they may have felt sudden, personal, or unfair. My concerns were real, but I could have communicated them with more care, more context, and much earlier.</p>
+
+<p>That experience taught me that unresolved concerns do not disappear just because the team keeps operating. Silence can look like alignment from the outside, but inside, it often turns into resentment. I also learned that directness and care are not opposites. Being direct early — and staying in the conversation until there is real resolution — is often the kinder thing to do.</p>
+
+<p>A better version of me would have said earlier: “I’m feeling some misalignment around roles, responsibilities, decision-making, and how we’re operating as a team. I don’t think this is fully resolved yet, and I want us to talk about it before it turns into resentment.”</p>
+
+<p>Cofounder communication is not a nice-to-have. It is one of the most important operating systems of the company.</p>
+
+<hr />
+
+<h4 id="2-learning-not-all-validation-is-equal-accelerators-vc-money-and-praise-validate-the-narrative-customers-using-returning-waiting-and-paying-validate-the-business">#2 Learning: Not all validation is equal: accelerators, VC money, and praise validate the narrative; customers using, returning, waiting, and paying validate the business</h4>
+
+<p>After the split, I left the original company structure, and with that, I also left YC. There was no funding, no accelerator badge, and no longer the founding team I had started with.</p>
+
+<p>What I did still have were customer conversations lined up.</p>
+
+<p>That forced a very clarifying question: without YC, without funding, and without the original team, was there still something real here?</p>
+
+<p>Getting into YC had made the company feel real from the outside. But after leaving, the only thing that mattered was whether customers still had the problem, whether they were still willing to talk, and whether I could build something useful enough for them to care.</p>
+
+<p>In a few days, I had to pull the logistics together, keep the conversations going, and prepare demos with very little structure around me. It was a tough period, but in some ways it clarified my own motivation. There was not much external momentum left to hide behind. What remained was simpler: I still cared about the problem, I still had customers willing to talk, and I still wanted to see if I could build something useful.</p>
+
+<p>There were long hours and a lot of uncertainty, but I managed to keep the thing alive. And that phase taught me a different kind of validation.</p>
+
+<p>Prestige, funding, and compliments can validate the story. But customers giving you their time, trusting you with their workflow, waiting for a solution, and eventually paying for it — that validates the problem. I learned that the strongest validation is not when people like your idea. It is when they make room for it in their actual work.</p>
+
+<hr />
+
+<h4 id="3-trust-is-the-real-strategy-genuineness-builds-trust-and-trust-is-what-makes-people-want-to-work-with-you">#3 Trust is the real strategy: Genuineness builds trust, and trust is what makes people want to work with you</h4>
+
+<p>I first learned this during my days at Bain. The strongest client relationships were not built by overpromising or pretending to have every answer. They were built by being honest, thoughtful, and useful enough that clients wanted to keep working with you.</p>
+
+<p>At a big company, a certain amount of trust comes with the logo. When I was at Bain, the brand entered the room before I did. Clients might not know me personally yet, but they already had a reason to believe the work would be high quality.</p>
+
+<p>As a founder, that changed. My previous experience helped me get some conversations, and the relationships I had built still mattered. But once I was no longer operating under a big company’s name, trust was no longer automatic. I had to earn it directly.</p>
+
+<p>That is easier said than done. Early customers know your product is imperfect. They know you are still figuring things out. So the question is not just whether the product works. It is whether they trust you to understand their problem, be honest about limitations, move quickly, and keep showing up.</p>
+
+<p>That is why genuineness mattered so much. Nothing worked better than being honest, specific, and useful: showing up in person when possible, listening carefully, acknowledging what the product could and could not do, customizing around real needs, and following through quickly.</p>
+
+<p>I learned that early sales is not about performing confidence. It is about earning trust one conversation, one demo, and one follow-up at a time.</p>
+
+<p>This also shaped how I thought about outreach. I was skeptical of generic AI-generated messages from the beginning because consulting had taught me that trust is built through specificity and context. When you are early, the goal is not to sound polished at scale. It is to make the customer feel like you actually understand their world.</p>
+
+<hr />
+
+<h4 id="lesson-4-patience-is-the-foundation-of-resilience-it-helps-you-stay-clear-headed-when-feedback-is-slow-ambiguous-or-not-what-you-wanted">Lesson #4: Patience is the foundation of resilience: it helps you stay clear-headed when feedback is slow, ambiguous, or not what you wanted</h4>
+
+<p>Patience is extremely important when feedback is no longer instant.</p>
+
+<p>In a big company, feedback is built into the system. At Bain, I valued that culture a lot. You get feedback from managers, teams, clients, staffing, reviews, and performance cycles. You know where you stand, what to improve, and often what the next step should be.</p>
+
+<p>When you are building your own thing, that structure disappears. There is no manager telling you whether you are doing well. There is no performance review that turns ambiguity into a clear development plan. There is no guaranteed next step.</p>
+
+<p>That also means there is no one else deciding what matters most. One of the hardest parts of being a founder was learning how to prioritize when everything felt urgent: customer calls, demos, product decisions, logistics, sales, follow-ups, and my own doubts. In a big company, priorities are often shaped by the system around you. When you are building alone, prioritization becomes your job. You have to decide what is actually important, what is merely noisy, and what can wait.</p>
+
+<p>A lot of the time, you are operating in uncertainty. You try something, and it does not work the way you hoped. You talk to customers, and the signal is mixed. You build a demo, and the reaction is unclear. You think you are close, and then something changes. That is where patience becomes important. Not passive patience, but the kind that lets you stay calm long enough to think from first principles. What is actually true? What did the customer actually mean? What problem keeps showing up? What assumption failed? What is the next useful experiment?</p>
+
+<p>The hardest part is that customer feedback is rarely straightforward. This also reminded me of change management: most people do not want to change how they work unless the new solution is much better, or the old way has become too painful to tolerate. And even when they say no, the reason they give is not always the real reason. There can be a million stated reasons — budget, timing, workflow, priorities — but underneath, the real question is often whether the pain is urgent enough to change behavior.</p>
+
+<p>Patience gave me enough space to separate surface-level feedback from deeper signal. It helped me avoid reacting emotionally to every setback and instead ask what the market was actually telling me.</p>
+
+<h4 id="lesson-5---balance-being-a-dreamer-with-being-realistic">Lesson #5 - Balance being a dreamer with being realistic</h4>
+
+<p>I did not land on PowerPoint automation<a href="#footnote-1">1</a> immediately.</p>
+
+<p>In fact, I had understood the pain from the beginning. Coming from consulting, I knew how painful slide creation and manual workflow cleanup could be. I also knew it was a hard problem to solve well, so early on I tried to explore adjacent ideas instead.</p>
+
+<p>But after leaving YC and continuing customer conversations on my own, the same pain kept resurfacing. People were still spending too much time on manual slide work, and the problem was concrete enough that they could describe it immediately. Eventually, I realized I was being pulled back to the problem I had avoided because it was hard. So I decided to go back to the hard problem.</p>
+
+<p>That became another lesson for me: hard problems are not always the wrong problems. Sometimes they are hard because they are real. The important question is not whether a problem is difficult, but whether the pain is persistent enough, specific enough, and valuable enough to be worth solving.</p>
+
+<p>For PowerPoint automation, I also had to learn what the right version of the solution looked like. The answer was not always “generate slides with AI.” In many professional workflows, consistency matters more than novelty. People care about control, formatting, brand standards, repeatability, and knowing exactly what they are going to get. For those use cases, template-based automation can be more valuable than fully generative output.</p>
+
+<p>Building it showed me there was real value. People found the product genuinely useful. It solved a painful workflow problem and saved them time in a way they could immediately understand. But usefulness and upside are not always the same thing. The market, the timing, the competition, the workflow complexity, and my own appetite for spending the next several years on this particular problem all weighed on the decision.</p>
+
+<p>That was part of why selling felt right. It allowed the product to continue existing for people who found it useful, while giving me space to move toward problems that felt closer to the kind of impact I wanted to work on next. To me, that is the balance founders have to hold: dream enough to take on hard problems, but stay realistic enough — about the market, the business model, and yourself — to know when to pivot, sell, or move on.</p>
+
+<hr />
+
+<h4 id="a-new-chapter">A new chapter</h4>
+
+<p>I would not call this past year wildly successful by the usual startup measures. There was no massive outcome, no clean arc, and no headline moment.</p>
+
+<p>But it changed how I think. It taught me more than almost any year I can remember — about people, trust, patience, customer pull, and my own judgment under pressure.</p>
+
+<p>Some of these lessons were things I had read about before, but I never fully understood them until I earned them through the messy parts: the high of getting into YC, the pain of leaving, the uncertainty of continuing alone, the discipline of listening to customers, and the humility of knowing when to move on.</p>
+
+<p>I will carry these lessons with me. I am writing them down because I hope they are useful to someone else, too.</p>
+
+<p>Now, on to the next chapter.</p>
+
+<p><a id="footnote-1"></a></p>
+
+<p>here are the links to the things I built:</p>
+
+<ul>
+  <li><a href="https://theduomi.com/">Duomi</a> — a logo wall builder for consulting decks and competitive landscapes</li>
+  <li><strong><a href="https://docs-slidekit.theduomi.com/">SlideKit</a></strong> — a PowerPoint backend for AI agents and automated workflows. It generates branded decks that match your <code class="language-plaintext highlighter-rouge">.pptx</code> template</li>
+</ul>
+
+<p>If you are working on similar problems, exploring deck automation, or just curious about the building process, I’d love to chat!</p>
+
+<p><img src="/assets/img/notes/leaving-the-structure-behind/01.jpeg" alt="" /></p>]]></content><author><name>Qinwen (Wendy) Huang</name></author><summary type="html"><![CDATA[Over the last year, I started my founder journey by trying to solve a problem I had felt firsthand at Bain: watching smart people spend too much time on manual workflows that should have been automated.]]></summary></entry><entry><title type="html">From Cell to System — How BESS Becomes Infrastructure</title><link href="https://huangqinwen.github.io/writing/from-cell-to-system-how-bess-becomes-infrastructure/" rel="alternate" type="text/html" title="From Cell to System — How BESS Becomes Infrastructure" /><published>2025-11-15T00:00:00-08:00</published><updated>2025-11-15T00:00:00-08:00</updated><id>https://huangqinwen.github.io/writing/from-cell-to-system-how-bess-becomes-infrastructure</id><content type="html" xml:base="https://huangqinwen.github.io/writing/from-cell-to-system-how-bess-becomes-infrastructure/"><![CDATA[<h2 id="at-a-glance"><strong>At a Glance</strong></h2>
+
+<ol>
+  <li><strong>BESS is a vertically stacked system:</strong> Cells provide the energy, packs manage heat and safety, PCS converts DC/AC, and EMS makes real-time economic and operational decisions. The system behaves like a power plant during outages and a market-optimized asset during normal operations</li>
+  <li><strong>Three supply-side groups build the industry:</strong> in-house cell makers control everything from cell-manufacturing to BESS-integration; integrators engineer upper-layer systems and software; component vendors focus on parts supply. Each competes on a different layer of value</li>
+  <li><strong>Demand is diverse:</strong> Utilities treat BESS as grid infrastructure, data centers and factories treat it as capacity and power-quality insurance, homes use it for resilience, and VPP/optimization platforms orchestrate fleets of systems into revenue-generating virtual assets</li>
+</ol>
+
+<p><em><strong>This is Part 2 of our Energy Storage series — “How Li-ion Becomes Infrastructure.”</strong> Here, we take a deep dive into <strong>grid-scale battery energy storage systems (BESS)</strong> — unpacking their architecture, performance metrics, and the engineering trade-offs that define today’s leading technologies.</em></p>
+
+<p>Over the past decade, energy storage went from niche home backup units to one of the fastest-growing categories of infrastructure. The shift isn’t abstract — it’s driven by real pressure on the grid: more variable solar and wind on the supply side, more EVs and AI data centers on the demand side. Storage solves the timing problem. It moves electrons from when they’re produced to when they’re needed. Storage now shows up everywhere — utility plants, factories, campuses, residential homes, and increasingly <strong>data centers</strong>, which are becoming one of the largest behind-the-meter storage buyers.</p>
+
+<p>Before storage can be understood as a market or investment theme, it needs to be understood as infrastructure. This article explains how storage actually works  — <strong>from the single cell to the full grid-scale system, who builds it, and who uses it.</strong></p>
+
+<p><img src="/assets/img/notes/from-cell-to-system-how-bess-becomes/01.png" alt="" /></p>
+
+<p><em>Figure 1: The structure of BESS interaction with grid and solar PV farm.</em></p>
+
+<h2 id="understand-what-are-inside-a-bess-during-a-grid-event">Understand What are Inside a BESS During a Grid Event</h2>
+
+<p>Grid-scale BESS looks like a big container box on the outside. Inside, it’s a precise interplay of electrochemistry, mechanical engineering, power electronics, and software. To understand how these layers work together, imagine a simple but realistic scenario: it’s a hot and sunny afternoon, solar generation is strong, and the onsite solar array is powering part of the load while excess energy flow to charge the battery. Electricity demand is high — and suddenly a grid line trips. A region loses power. Normally this would mean immediate blackout — but a grid-scale BESS is sitting at the substation nearby, fully synchronized and ready. The entire process occurs automatically without manual intervention,</p>
+
+<h2 id="system-layer--integration-controls-and-software"><strong>System Layer — Integration, Controls, and Software</strong></h2>
+
+<h3 id="the-grid-fails--sensors-detect-the-drop">The Grid Fails — Sensors Detect the Drop</h3>
+
+<p>The instant the transmission line trips, the local grid frequency and voltage collapse. Protective relays on the PCS (Power Conversion System) sense the frequency swing and voltage drop. This detection happens within <strong>milliseconds</strong>.</p>
+
+<h3 id="ems-dispatches-the-power-output"><strong>EMS Dispatches the Power Output</strong></h3>
+
+<p>The EMS is constantly monitoring grid conditions and battery conditions. PCS makes the system physically capable of interacting with the grid at the hardware level, and the EMS makes the system operationally intelligent at the software level. When it sees the PCS signal an abnormal grid event, it immediately recalculates how much power the BESS should deliver and how to coordinate with the grid operator’s emergency instructions.</p>
+
+<p>EMS is the intelligence layer that transforms a battery from a passive storage device into an active, revenue-generating grid asset. It interprets market signals, grid conditions, and battery data in real time to decide when and how hard to charge or discharge, balancing immediate performance with long-term health. EMS communicates with upstream grid info as well as downstream BMS data, builds model to interpret market signals, grid conditions, and battery data in real time to decide when and how hard to charge or discharge. Modern EMS platforms integrate tightly with electricity market, adjusting strategies as weather and load forecasts evolve throughout the day and season cycle.</p>
+
+<p>So go back to the afternoon outage, the EMS switches to resilience mode.  It determines, within seconds, the exact discharge curve the PCS should follow.</p>
+
+<h3 id="pcs-sends-power-to-the-grid--turning-dc-into-ac"><strong>PCS Sends Power to the Grid — Turning DC Into AC</strong></h3>
+
+<p>Once EMS gives the command, the PCS begins pushing power from battery out onto the AC side.</p>
+
+<p>The PCS is the BESS’s grid physical interface. At its core, the PCS converts DC electricity from the battery to AC for grid export during discharge and performs the reverse conversion during charging, capable of operating in both <strong>grid-following</strong> and increasingly <strong>grid-forming modes</strong>. In grid-following mode, the PCS synchronizes to external voltage and frequency signals, while in grid-forming mode it establishes those signals itself, enabling batteries to behave like virtual synchronous machines. Its performance is defined by fast <strong>response time</strong>, <strong>96–98%</strong> <strong>round-trip efficiency</strong>, short-term overload capability, and its contribution to system stability. As renewable penetration increases, grid-forming PCS architectures are becoming industry standard.</p>
+
+<p>In the grid fail event, the PCS immediately enters grid-forming mode, starts generating a stable 50/60 Hz waveform using energy from the battery. Inside the PCS, battery DC flows into IGBTs / MOSFETs, then the inverter synthesizes a clean AC waveform and the output is synchronized across phases. This step is the electrical bridge — without the PCS, the DC energy in cells cannot do anything for the grid.</p>
+
+<h2 id="inside-the-battery-room--packs-bms-and-thermal-control-engage"><strong>Inside the Battery Room — Packs, BMS, and Thermal Control Engage</strong></h2>
+
+<p>While the PCS interacts with the grid, the <strong>BMS manages everything inside the container</strong>, sends signal to cell immediately to release electrochemistry energy.</p>
+
+<p><img src="/assets/img/notes/from-cell-to-system-how-bess-becomes/02.png" alt="" /></p>
+
+<p><em>Figure 2: The structure of BESS inside.</em></p>
+
+<h3 id="battery-management-system"><strong>Battery Management System</strong></h3>
+
+<p>Battery Management System continuously provides the electrical and thermal state of every cell while coordinating how the system charges, discharges. At its core, the BMS measures cell voltages, temperatures, and currents with high precision, using that data to keep the pack within safe operating limits and to prevent conditions that accelerate degradation or trigger thermal events. A well-designed BMS reduces over-charging stress and sharply reduces the frequency of unplanned downtime. If any module drifts out of tolerance, the BMS isolates that module and reroutes current around it. Increasingly, modern BMS data does not remain confined within the container; it is aggregated into cloud platforms where fleet-level analytics detect anomalies, forecast aging pathways, and guide high-level optimization. In short: <strong>BMS keeps the battery safe while PCS keeps the grid stable.</strong></p>
+
+<h3 id="electrochemistry-energy-comes-from-the-cells"><strong>Electrochemistry Energy Comes From the Cells</strong></h3>
+
+<p>When the signal of releasing power reaches to the deepest layer, energy comes from cells releasing stored ions. Modern BESS deployments overwhelmingly use LFP cells—now roughly 85–90% of global installations—because iron-phosphate chemistry offers advantages include:</p>
+
+<ul>
+  <li><strong>Low cost (iron + phosphate, no nickel/cobalt), most important, BESS use long time, very cost sensitive.</strong></li>
+  <li>High thermal stability → inherently safer than NMC</li>
+  <li>Long cycle life (6,000–12,000 cycles)</li>
+  <li>Wide operating temperature window</li>
+</ul>
+
+<p>Unlike EVs, BESS systems prioritize durability, safety, and scalability. Emerging chemistries such as sodium-ion and LMFP are gaining attention for their potential to reduce cost further and improve safety margins, while NMC remains relevant in space-constrained indoor or premium-energy applications.</p>
+
+<p>When a grid outage triggers the BESS to discharge, lithium ions migrate from the graphite anode through the electrolyte and separator toward the cathode, releasing electrons that flow into the external circuit and ultimately feed the PCS as it forms a stable AC waveform for the grid.</p>
+
+<h3 id="pack--engineering-for-scale"><strong>Pack — Engineering for Scale</strong></h3>
+
+<p>Intuitively, a <strong>battery pack is simply many cells wired and managed together</strong>. But turning “a lot of cells” into a <strong>high-quality, grid-grade pack</strong> is one of the hardest engineering problems in energy storage – thousands of cells must behave like one device. At the pack level, a grid outage triggers an immediate shift from steady-state monitoring to coordinated high-power delivery, turning the pack into the structural and electrical bridge that channels cell-level electrochemistry into system-level output. The pack must smooth thousands of voltage and temperature signals into a stable DC bus for the inverter, deliver high power instantly during a grid event, and ramp thermal management to extract heat uniformly. This middle layer—packs—is often the <em>least</em> appreciated, yet it defines safety, serviceability, and lifetime cost. Building a high-quality pack isn’t just “putting a lot of cells together”; it’s the engineering that makes the entire BESS work.</p>
+
+<h2 id="when-grid-power-returns--bess-smoothly-hands-control-back-and-receive-solar-power">When Grid Power Returns — BESS Smoothly Hands Control Back and Receive Solar Power</h2>
+
+<p>After hours of repairing, now the utility power is finally restored, the battery system transitions just as smoothly back to grid-connected operation as it did into islanding. The PCS is the first to recognize the reappearance of a stable grid waveform, continuously sampling the returning voltage and frequency until it determines that conditions are within acceptable synchronization tolerances; once aligned, it gradually shifts from generating its own grid-forming waveform to following the restored grid signal.</p>
+
+<p>As this electrical handoff begins, the EMS recalculates the system’s operating objectives, tapering battery discharge to avoid abrupt current changes, assessing the remaining state of charge, and determining whether the system should recharge immediately or hold in standby depending on requirements. The EMS also brings the onsite solar array back into its normal operating mode—no longer riding behind the BESS microgrid, the solar PV system now resumes exporting power into the facility and, when available, begins recharging the battery through the PCS.</p>
+
+<p>Meanwhile, the BMS moderates the internal transition by reducing load on the cells, rebalancing modules that diverged during the emergency discharge, and managing thermal recovery through cooling loops to bring all cell groups back into a uniform and stable temperature range.</p>
+
+<h2 id="who-build-the-systems--supply-side"><strong>Who Build the Systems — Supply Side</strong></h2>
+
+<p><img src="/assets/img/notes/from-cell-to-system-how-bess-becomes/03.png" alt="" /></p>
+
+<h3 id="vertical-integrated-supplier"><strong>Vertical Integrated Supplier</strong></h3>
+
+<p><strong>Vertical Integrated Supplier</strong> are the fully vertically integrated giants that make both the cells and the full containerized energy-storage system. Firms like CATL, BYD, LG Energy operate massive gigafactories where they control the entire chemical stack — electrode formulation, electrolyte additives, formation cycles, and pack/BMS co-design. Because cell manufacturing is capital-intensive, these companies push aggressively downstream to capture more value and lock in long-term supply.</p>
+
+<p>This IDM-style ownership lets them optimize for what stationary storage cares about most. Vertical integration creates engineering and economic advantages that outsiders cannot easily replicate and their scale compounds the advantage. High-utilization gigafactories reduce cost, integrated module/pack production cuts logistics risk, and controlling cell chemistry means safety fixes and performance upgrades propagate instantly through their BESS platforms.</p>
+
+<p>Key Players:</p>
+
+<ul>
+  <li>CATL, BYD, Gotion, CALB, EVE Energy, LG Energy Solution, Samsung SDI, SK On, Panasonic Energy</li>
+</ul>
+
+<h3 id="system-integrators"><strong>System Integrators</strong></h3>
+
+<p><strong>System Integrators</strong> design and build the upper layers of the storage stack—packs, racks, thermal&amp;fire management, BMS/EMS logic, PCS integration—while sourcing cells from upstream suppliers. <strong>Companies like Tesla Energy, Fluence, Powin operate more like semiconductor “fabless” firms</strong>: they design system architecture and firmware but do not own cell production. Their differentiation comes from thermal design quality, rack layout, BMS stability, PCS/EMS integration, and fleet-level software. Tesla integrates everything but the cell using its manufacturing discipline, while Fluence differentiates through its grid-software and multi-ISO dispatch algorithms.</p>
+
+<p>Because they avoid gigafactory CAPEX, these firms operate as agile platform builders: they can adopt new chemistries quickly, shift suppliers based on cost or performance, and optimize systems around whichever cells fit the project. As cells become more commoditized, value will increasingly shift toward firmware, controls, and operational intelligence—giving system integrators a path to capture more margin and customer trust. The race for value in the BESS stack remains open, and integrators are positioned to win if software continues to dominate system performance.</p>
+
+<p>Key Players</p>
+
+<ul>
+  <li>Tesla Energy (Megapack), Fluence, Powin, Wärtsilä, Sungrow, Huawei, Nidec, Schneider Electric, Siemens, EDF, Hitachi Energy, Eaton, Mitsubishi Power, GE Vernova</li>
+</ul>
+
+<h3 id="component-suppliers">Component Suppliers</h3>
+
+<p>The third group comprises companies that supply the power electronics, conversion hardware, and protective components that make BESS systems operable on real grids. Firms like <strong>SMA, Delta Electronics, DYNAPOWER, Eaton</strong> sit one layer down in the stack, providing the PCS, DC/DC converters, isolation transformers, switchgear, circuit breakers, relays, sensors, and protective subsystems that integrators depend on. This group is analogous to the <strong>component suppliers</strong> in the semiconductor industries—companies that provide indispensable pieces of the system but generally do not control the architecture.</p>
+
+<p>PCS and power-electronics design is its own high-complexity domain. These vendors must meet strict requirements which allow storage systems to stabilize weak grids or operate as virtual synchronous machines. Although they do not control the battery chemistry or the container design, their technology anchors the electrical performance of the entire installation.</p>
+
+<p>Economically, this segment remains flexible. Power-electronics vendors can move up the value chain by embedding more intelligence into inverters, integrating EMS-ready controls, or offering co-designed solutions with integrators. They can also become strategically important as grid-forming inverters become mandatory in high-renewable regions, making the PCS not just a conversion device but a stability resource.</p>
+
+<h2 id="who-uses-the-system--the-demand-side-of-bess">Who Uses the System — The Demand Side of BESS</h2>
+
+<p><img src="/assets/img/notes/from-cell-to-system-how-bess-becomes/04.png" alt="" /></p>
+
+<p>On the demand side, battery storage is no longer a single market. The same containerized storage block behaves completely differently depending on who owns it and what problem it is solving.</p>
+
+<h3 id="utility-scale-users--storage-as-grid-infrastructure"><strong>Utility-Scale Users — Storage as Grid Infrastructure</strong></h3>
+
+<p>Utility operators such as <strong>Vistra, RWE, ENGIE, Nextera Energy, Total, Shell Energy, and State Grid</strong> deploy BESS as core grid infrastructure—hundreds of megawatts tied directly to substations, renewables, and interconnection points. For these users, storage is a capacity asset that maintains reliability during peaks or contingencies, absorbs renewable volatility, and delivers fast frequency response and reserve. They evaluate systems like transmission upgrades: reliability, availability, response speed, and long-term stability. With 4–8-hour systems becoming the norm and grid-forming inverters increasingly essential, utility-scale deployments represent the largest revenue pool in BESS today.</p>
+
+<h3 id="factories--data-centers--storage-as-capacity-and-insurance">Factories &amp; Data Centers — Storage as Capacity and Insurance</h3>
+
+<p>A second fast-growing demand segment consists of <strong>large industrial loads</strong>, especially data centers and factories, represented by companies like <strong>AWS, Microsoft Azure, Google Cloud (data centers), Tesla, BYD, and Ford (factories)</strong>. With predictable but extremely high and sensitive power demand, factories use storage to stabilize internal power quality, protect equipment, and smooth high-power machinery loads, while AI data centers increasingly require BESS to secure grid interconnection and manage the massive load swings created by GPUs. As these loads outgrow local grid capacity, on-site batteries become essential operating infrastructure, making industrial and data-center storage one of the fastest-growing C&amp;I demand segments through 2030.</p>
+
+<h3 id="residential-storage--distributed-backup"><strong>Residential Storage — Distributed Backup</strong></h3>
+
+<p>Residential BESS, typically 5–20 kWh, turn homes into small-scale flexible loads. Homeowners adopt storage primarily for backup power, solar self-consumption, and time-of-use arbitrage. There are numerous residential storage across the country. But taken together, networks of home batteries evolve into <strong>virtual power plants(VPP)</strong> when orchestrated intelligently. A fleet of thousands of Powerwalls can collectively supply grid services normally reserved for utility-scale assets — ramping up during evening peaks or providing fast frequency response. The residential market is smaller per site but massive in aggregate, and it grows rapidly in regions with high solar penetration, wildfire risks, or expensive peak pricing.</p>
+
+<h3 id="auxiliary-service---digital-operators--aggregation-optimization-and-market-intelligence"><strong>Auxiliary Service - Digital Operators — Aggregation, Optimization, and Market Intelligence</strong></h3>
+
+<p>Beyond the physical owners of storage systems, a rapidly growing category of companies sits above the hardware and extracts value through software, orchestration, and real-time optimization. This group includes <strong>VPP operators</strong> such as <em>Fluence, AutoGrid, EnergyHub, GridBeyond, Enel X</em>, along with <strong>analytics and optimization platforms</strong> like <em>TWAICE, Accelex, GridX</em>.</p>
+
+<p>VPP operators <strong>aggregate thousands of BESS into a single controllable virtual resource</strong>. Instead of each device participating separately in demand response or ancillary markets, the aggregator turns them into a fleet capable of responding to grid signals, transforms distributed hardware into a dispatchable asset class.</p>
+
+<p>Optimization platforms operate at a different layer, focusing on <strong>asset performance</strong>, <strong>battery health</strong>, <strong>degradation forecasting</strong>, and <strong>dispatch strategy</strong>. They build analytics models to maximize both revenue and lifetime. Their software supervises the entire operating process and identifies the dispatch profile that creates the highest long-term value. As fleets grow, these platforms increasingly become the “brains” of storage portfolios.</p>
+
+<h2 id="closing-thoughts">Closing thoughts</h2>
+
+<p>Battery systems are becoming a new layer of grid infrastructure — and nowhere is that more visible today than in data centers.</p>
+
+<p>AI data centers are pushing power demand higher, faster, and in more concentrated locations than the grid was originally built to serve. These facilities need enormous amounts of electricity, but they also need that electricity to be clean, stable, and uninterrupted. For a data center, power is not just an operating cost; it is a constraint on growth and a core part of reliability.</p>
+
+<p>That is where BESS becomes strategically important. A battery system can help a data center manage peak demand, smooth short-term load swings, support backup power architecture, improve power quality, and make it easier to integrate onsite solar or contracted renewable power. In some cases, storage can also help reduce the burden on local grid infrastructure by shifting when electricity is drawn from the grid.</p>
+
+<p>This is why understanding the BESS stack matters. Cells dictate lifetime and cost. Packs determine safety and serviceability. PCS shapes how the system behaves electrically. EMS decides when to charge, discharge, stand by, or respond to grid and market signals. For data centers, each layer directly affects uptime, energy cost, interconnection speed, and long-term operating flexibility.</p>
+
+<p>The broader takeaway is that batteries are no longer just a renewable-energy accessory. They are becoming a bridge between the digital infrastructure boom and the physical limits of the power grid. As AI workloads expand, the winners will not only be the companies that build more compute, but also the ones that secure reliable, flexible, and scalable power behind it. BESS is increasingly part of that answer.</p>]]></content><author><name>Qinwen (Wendy) Huang</name></author><summary type="html"><![CDATA[At a Glance]]></summary></entry><entry><title type="html">The Grid’s Missing Piece — Why Energy Storage Is the New Power Plant</title><link href="https://huangqinwen.github.io/writing/the-grids-missing-piece-why-energy-storage-is-the-new-power-plant/" rel="alternate" type="text/html" title="The Grid’s Missing Piece — Why Energy Storage Is the New Power Plant" /><published>2025-11-10T00:00:00-08:00</published><updated>2025-11-10T00:00:00-08:00</updated><id>https://huangqinwen.github.io/writing/the-grids-missing-piece-why-energy-storage-is-the-new-power-plant</id><content type="html" xml:base="https://huangqinwen.github.io/writing/the-grids-missing-piece-why-energy-storage-is-the-new-power-plant/"><![CDATA[<h3 id="at-a-glance"><strong>At a Glance</strong></h3>
+
+<ul>
+  <li><strong>Why It Matters:</strong> Renewables and electrification create volatility in both supply and demand — storage restores flexibility</li>
+  <li><strong>Core Function:</strong> Storage shifts energy across <strong>time</strong> (charging and discharging) and <strong>space</strong> (relieving congestion, acting as virtual transmission)</li>
+  <li><strong>Technology Shift:</strong> From fixed, geography-bound systems like pumped hydro to fast, modular Battery Energy Storage Systems (BESS), energy storage has evolved rapidly—<strong>BESS now stands as the fastest-growing segment of the entire industry</strong></li>
+</ul>
+
+<p><em><strong>This is Part 1 of our Energy Storage series — “Energy Storage Fundamentals.”</strong> Here, we build a foundation for why energy storage matters, and how it has evolved from a supporting function to a central pillar of modern power systems.</em></p>
+
+<p><em><strong>Part 2</strong> takes a deep dive into <strong>grid-scale battery energy storage systems (BESS)</strong> — unpacking their architecture, performance metrics, and the engineering trade-offs that define today’s leading technologies.</em></p>
+
+<h3 id="why-everyone-is-talking-about-energy-storage"><strong>Why Everyone Is Talking About Energy Storage</strong></h3>
+
+<p>Energy storage has become one of the hottest topics in energy today - especially with the rise of AI data centers. While many forms of energy can be stored—thermal, mechanical—the majority of storage efforts now focus on <strong>electricity</strong>, because it underpins nearly everything in modern life. Unlike fuels, electricity cannot be stockpiled; it has to be used the moment it is generated or converted into another form. This fundamental transience is what makes storage indispensable - it provides the bridge between generation and use, turning a fleeting current into a reliable source.</p>
+
+<p><img src="/assets/img/notes/the-grids-missing-piece-why-energy/01.png" alt="" /></p>
+
+<p>Energy storage installations globally will keep gaining momentum over the next decade as other markets pick up pace, driven first by the US and China and then rapidly by Europe and the rest of Asia-Pacific. This is not a niche experiment — it’s a foundational shift in how the world plans to run power systems.</p>
+
+<hr />
+
+<h4 id="how-electricity-reaches-you--and-where-it-breaks-down">How Electricity Reaches You — and Where It Breaks Down</h4>
+
+<p>Before we talk about why storage is essential, it helps to understand how electricity actually gets to you today. Nearly everything you plug in is supplied by a vast, continent-scale machine—the electric grid—that must keep supply and demand in perfect balance 24/7. Power plants feed electricity onto high-voltage transmission lines; substations step that voltage down and route it through distribution feeders to homes, businesses, and data centers. Regional operators constantly monitor this system, matching generation and consumption to maintain a steady frequency. If supply lags, frequency drops; if it exceeds demand, frequency rises—either way, reliability suffers.</p>
+
+<p>Because electricity can’t be “parked” on the wires, historically, grid balance was maintained by dispatching controllable power plants — scheduling base load coal and nuclear for steady output and ramping up gas plants to cover short-term spikes. Demand rose and fell in predictable daily and seasonal cycles, and since most generation was controllable, grid operators - guided by real-time monitoring and dispatch systems - could plan, schedule, and fine-tune supply in real time.</p>
+
+<p>That balance has become far harder to maintain today. The rise of wind, solar, and distributed generation — combined with electrified transport and data-hungry AI industries consumption — has made both supply and demand far more volatile.</p>
+
+<p><strong>So why not just build more wires or more power plants to handle the volatility?</strong> Intuitively, it seems like expanding transmission and adding generation should solve the problem—more ways to move power, more power to move. But that’s not really the case. Transmission can only shift electricity across space, not time. More generation helps only when supply is scarce, not when it’s misaligned. The <strong>core challenge</strong> isn’t a shortage of generation capacity, but a <strong>mismatch in when and where electricity is available</strong>—<strong>a problem of both time and space</strong>.</p>
+
+<h4 id="the-time-mismatch---when-power-arrives-vs-when-its-needed"><strong>The Time Mismatch - When power arrives vs. when it’s needed</strong></h4>
+
+<p>As renewables make up a growing share of global electricity generation, keeping the grid balanced has become far more complex. The shift toward wind and solar is driven by the race to cut carbon emissions and reach net-zero goals, not merely to meet incremental demand. <strong>But unlike thermal plants, renewables cannot be dispatched on command</strong> — <strong>they only produce power when the sun shines or the wind blows.</strong> At low penetration, this intermittency is manageable. <a href="https://www.irena.org/News/pressreleases/2025/Mar/Record-Breaking-Annual-Growth-in-Renewable-Power-Capacity">Yet the scale is changing rapidly: global renewable additions reached roughly</a> <strong><a href="https://www.irena.org/News/pressreleases/2025/Mar/Record-Breaking-Annual-Growth-in-Renewable-Power-Capacity">4500 GW in 2024</a></strong>. Many regions are already installing renewables faster than the grid can absorb their output during periods of high generation and low demand.</p>
+
+<p>This temporal imbalance plays out daily and seasonally. Solar generation peaks at midday, when consumption is moderate, while evening hours — when people return home and EVs begin charging — bring steep demand spikes known as the “duck curve.” <a href="https://www.eia.gov/todayinenergy/detail.php?id=65364">In California, over 20 % of solar generation was curtailed during certain spring 2024 afternoons due to oversupply,</a> <a href="https://www.caiso.com/documents/2024-special-report-on-battery-storage-may-29-2025.pdf">while batteries supplied roughly 8–9 % of evening-peak demand</a>. Similarly, wind often peaks overnight, when load is lowest. <a href="https://www.reuters.com/world/china/chinas-wind-solar-curtailment-rising-2025-08-01">Northern China recorded curtailment rates above 15 % in winter nights, forcing turbines offline despite available wind</a>.</p>
+
+<p>Storage directly addresses this timing gap. <strong>It captures surplus generation when demand is low and releases it when power is most needed - turning temporal volatility into usable reliability.</strong></p>
+
+<p><img src="/assets/img/notes/the-grids-missing-piece-why-energy/02.png" alt="" /></p>
+
+<p><em>Figure 2: The evolution of California’s grid system/net load in a typical summer day (total demand minus solar generation) between 2022 and 2025. The shaded “duck” shape visualizes how midday solar generation increasingly depresses net demand. Over time, the belly of the “duck” deepens — representing oversupply and curtailment risks during sunny hours — while the neck steepens, reflecting sharper evening ramps that stress grid flexibility. This highlights why energy storage and demand shifting have become essential to grid stability.</em></p>
+
+<h4 id="geographic-mismatch--where-the-power-is-made-vs-where-its-used"><strong>Geographic mismatch — where the power is made vs. where it’s used</strong></h4>
+
+<p>Even if timing were perfect, the locations of generation and consumption often don’t match. Renewable resources are often concentrated far from where electricity is consumed. Large-scale renewables are often sited where land and wind or solar resources are abundant - for example, the U.S. Southwest, China’s northwest, Australia’s interior, the North Sea - while demand clusters in urban and industrial corridors along coasts and population centers.</p>
+
+<p>Building new transmission infrastructure (e.g., Ultra high-voltage lines) can help move energy across space, but it is expensive, slow to permit, and limited in flexibility. <strong>Energy storage offers a complementary solution: <a href="https://www.mdpi.com/1996-1073/18/4/902?">acting as a virtual transmission asset</a>.</strong> By storing energy near generation sites or load centers, <strong>storage can ease congestion and reduce curtailment without new power lines</strong>. Studies show that deploying storage equivalent to roughly 15% of transmission capacity can provide comparable balancing benefits. Projects in Hebei (China), California’s Central Valley, and Texas’ ERCOT interconnection points already demonstrate measurable reductions in congestion and stranded power.</p>
+
+<h4 id="downstream-demand-surge">Downstream Demand Surge</h4>
+
+<p>While electricity supply grows more variable, the demand side is not moving towards auto-balancing, instead becoming heavier and less flexible. Electrification is accelerating across sectors - EVs, large AI data centers, and electrified manufacturing are driving rapid load growth that nearly doubled global electricity demand in 2024 compared to its decade-long average. These loads are often stiff, rapid-ramping, and concentrated in already stressed regions. In the U.S., <a href="https://www.reuters.com/technology/us-data-centers-electricity-demand-2030-2025-05-15">data centers alone are projected to consume 6–8% of total electricity by 2030</a>, <a href="https://www.byd.com/mea/news-list/byd-unveils-super-e-platform-with-megawatt-flash-charging">while EV superchargers can draw up to 1 MW per vehicle</a>. Meanwhile, new electrified manufacturing hubs and hydrogen projects are adding continuous high loads, often in already constrained areas.</p>
+
+<p>This surge compounds the renewable mismatch: the grid must now deliver more total energy while also compensating for more volatility. The result is a system that requires both capacity and flexibility — the ability to store, shift, and dispatch power dynamically across time and geography.</p>
+
+<p>Energy storage sits precisely at this intersection. <strong>It absorbs surplus power when it is cheap or stranded, then releases it exactly where and when it is valuable.</strong> It tames volatility from variable renewables upstream and stabilizes the inflexible demands downstream. In doing so, it restores control to a system that is otherwise losing it.</p>
+
+<p>This marks a turning point - storage is no longer mere “backup”. It is <strong>flexibility infrastructure</strong> - the connective tissue that lets the modern grid handle both the clean energy transition and the electrification surge at the same time.</p>
+
+<hr />
+
+<h3 id="so-how-do-we-store-energy"><strong>So How Do We Store Energy?</strong></h3>
+
+<p>The modern grid faces many kinds of imbalances — but not all imbalances look the same. Some last seconds, others stretch across seasons; some occur on remote wind farms, others in dense city substations. These different challenges have inspired an equally diverse set of storage technologies. Today’s landscape spans a spectrum — <strong>pumped hydro, compressed air, thermal, hydrogen, and electrochemical systems</strong> — each trading off cost, duration, and flexibility.</p>
+
+<p>But this variety didn’t appear overnight. It reflects a long progression: from fixed, geography-bound systems to fast, modular ones — each generation of storage engineered to meet the grid’s changing demands. Understanding these trade-offs reveals why certain technologies dominate specific niches today — and why <strong>batteries, in particular, have risen fastest.</strong></p>
+
+<iframe title="Main Energy Storage Methods" aria-label="Interactive chart" src="https://datawrapper.dwcdn.net/HoAkj/2/" scrolling="no" frameborder="0" style="width:0;min-width:100%;border:none;" height="444"></iframe>
+<p><em>Main Energy Storage Methods</em></p>
+
+<p>Early large-scale solutions didn’t involve chemistry at all, but gravity. Pumped-hydro systems, which send water uphill when power is abundant and release it later to spin turbines, became the backbone of grid storage in the 20th century — <a href="https://www.irena.org/publications/2023/Jun/Changing-role-of-hydropower">and they still account for more than 40% of global capacity today</a>. It has lowest $/kWh at scale, multi-hour to multi-day durations. <a href="https://www.reuters.com/sustainability/climate-energy/china-track-exceed-2030-pumped-storage-hydro-target-by-8-industry-body-says-2025-06-24/">China has been dominating PSH, added</a> <strong><a href="https://www.reuters.com/sustainability/climate-energy/china-track-exceed-2030-pumped-storage-hydro-target-by-8-industry-body-says-2025-06-24/">7.75 GW</a></strong> <a href="https://www.reuters.com/sustainability/climate-energy/china-track-exceed-2030-pumped-storage-hydro-target-by-8-industry-body-says-2025-06-24/">in 2024 and is on track for</a> <strong><a href="https://www.reuters.com/sustainability/climate-energy/china-track-exceed-2030-pumped-storage-hydro-target-by-8-industry-body-says-2025-06-24/">~130 GW by 2030</a></strong><a href="https://www.reuters.com/sustainability/climate-energy/china-track-exceed-2030-pumped-storage-hydro-target-by-8-industry-body-says-2025-06-24/">.</a></p>
+
+<p><img src="/assets/img/notes/the-grids-missing-piece-why-energy/03.png" alt="" /></p>
+
+<p><em>Figure 3 : Schematic of four energy storage system.</em></p>
+
+<p>But gravity has intrinsic limits. It can only solve imbalance in a longer timeframe but fail to handle demand peaks like five minutes EV supercharging. Pumped storage requires highly specific geography, and building new sites takes years permitting and environmental review. It’s active in balancing the grid, but not agile — suitable for large, predictable imbalances, not for the fast, local fluctuations of a renewable-heavy system. These constraints pushed engineers to look for something <strong>more agile and deployable anywhere</strong>, not just in mountain valleys.</p>
+
+<p>That flexibility came from electrochemistry. There are some solutions like <strong>flow batteries</strong> and <strong>hydrogen</strong>, but both come with practical and economic constraints that have kept them from wide deployment so far.</p>
+
+<p><strong>Flow batteries</strong> store energy in liquid electrolytes contained in external tanks, allowing their power and capacity to scale independently. However, their <strong>low energy density</strong>, <strong>complex fluid systems</strong>, and <strong>high capital cost</strong> have limited them mostly to pilot projects and niche applications. While research continues, widespread commercialization remains years behind.</p>
+
+<p><strong>Hydrogen</strong>, on the other hand, offers the promise of multi-day or even seasonal storage. It can absorb massive amounts of surplus renewable power through electrolysis, store it as gas, and later reconvert it to electricity via fuel cells. Yet the entire green-hydrogen generation process chain requires <strong>costly infrastructure for compression, transport, and safety management.</strong></p>
+
+<p><img src="/assets/img/notes/the-grids-missing-piece-why-energy/04.png" alt="" /></p>
+
+<p><em>Figure 4: Schematic of battery energy storage system.</em></p>
+
+<p>From the 1990s to 2010s, <strong>lithium-ion technology</strong> matured for consumer electronics and electric vehicles, setting the stage for grid-scale storage. As costs fell and performance improved, batteries began migrating from handheld devices to power systems. Today it has evolved into an active and flexible grid infrastructure. <strong>Grid-scale battery energy storage systems (BESS) are being built as core assets that stabilize, optimize, and monetize grid operations.</strong></p>
+
+<p><strong><a href="https://www.caiso.com/documents/2024-special-report-on-battery-storage-may-29-2025.pdf">BESS can respond within milliseconds, far faster than conventional power plants and storage like pumped hydro</a></strong><a href="https://www.caiso.com/documents/2024-special-report-on-battery-storage-may-29-2025.pdf">.</a> This agility allows them to perform frequency regulation, instantly absorbing or injecting power to maintain the grid’s 50/60 Hz balance. They also provide peak shaving and load shifting, charging during low-cost or low-demand periods and discharging during evening peaks. On the system side, the small and modular design enabled the smoothing of the micro imbalance happened in the capillaries of the grid system. Utility providers deploy them as virtual power plants or “non-wires alternatives,” using storage to relieve local congestion and defer expensive grid upgrades.</p>
+
+<h4 id="onwards"><strong>Onwards</strong></h4>
+
+<p>The story of energy storage is ultimately a story of flexibility. Legacy systems like <strong>pumped hydro</strong> remain invaluable for large-scale, long-duration balancing — but they are fixed, slow to build, and geographically constrained. In contrast, <strong>BESS</strong> represents a new class of infrastructure: modular, fast, and deployable almost anywhere. This feature makes BESS the fastest-growing segment in the entire energy storage landscape. As manufacturing scale drives costs down and performance continues to improve, BESS is rapidly moving from pilot projects to mainstream infrastructure, reshaping how power systems are designed and operated.</p>
+
+<p>In the next part of this series, we’ll focus entirely on BESS: how cells become grid assets, what drives cost curves, who are the key players and how do they participate in the fusing market of grid and energy storage.</p>]]></content><author><name>Qinwen (Wendy) Huang</name></author><summary type="html"><![CDATA[At a Glance]]></summary></entry><entry><title type="html">Solid State Battery — From Lab to Production</title><link href="https://huangqinwen.github.io/writing/solid-state-battery-from-lab-to-production/" rel="alternate" type="text/html" title="Solid State Battery — From Lab to Production" /><published>2025-10-20T00:00:00-07:00</published><updated>2025-10-20T00:00:00-07:00</updated><id>https://huangqinwen.github.io/writing/solid-state-battery-from-lab-to-production</id><content type="html" xml:base="https://huangqinwen.github.io/writing/solid-state-battery-from-lab-to-production/"><![CDATA[<h2 id="at-a-glance">At a glance</h2>
+
+<ul>
+  <li>Solid-state batteries are nearing a critical inflection, moving from research labs to industrial pilots across the world</li>
+  <li>The promise is real—but timing is uncertain, as breakthroughs in materials, supply chain, and manufacturing economics are still required</li>
+  <li>Cost and manufacturability will decide the winners, but not chemistry alone</li>
+  <li>Coexistence is the likely outcome: solid-state and advanced lithium-ion systems will share the market for years to come, each optimized for different applications</li>
+</ul>
+
+<p>Solid-state batteries are entering the spotlight—featured in automaker announcements, government subsidies, and investor decks. Alongside other emerging energy-storage technologies—from advanced liquid-ion chemistries to gravity storage—they represent a broader rethinking of how energy is stored, delivered, and integrated into mobility and the grid. Yet behind every headline breakthrough are prototypes that remain difficult to scale, costly to produce, and fragile under real-world cycling. The promise of <strong>safer, longer-range, faster-charging</strong> electric vehicles is genuine—but the pathway from laboratory success to commercial stability is still uncertain.</p>
+
+<p>Backed by billions in public and private funding, solid-state development is now a global race. <a href="https://global.toyota/en/newsroom/corporate/43380876.html">Japan’s automakers and chemical suppliers are targeting pilot production by</a> <strong><a href="https://global.toyota/en/newsroom/corporate/43380876.html">2027</a></strong>, while Chinese leaders such as <strong>Qingtao and</strong> <strong>WeLion</strong> have already begun deploying hybrid semi-solid packs in commercial vehicles. Western startups, including <strong><a href="https://www.quantumscape.com/quantumscape-and-corning-announce-agreement-for-ceramic-separator-development-commercialization/">QuantumScape</a></strong> and <strong>Solid Power</strong>, continue to refine anode-free and multilayer designs.</p>
+
+<p>With all these breakthroughs, the <strong>#1 question everyone is still asking</strong> is: <em>how close are we, really, to seeing solid-state batteries in the wild?</em></p>
+
+<p>In this piece, we dig into the heart of the question—unpacking <strong>what “solid-state” actually means, why it matters now, and what is still standing in its way.</strong> We will trace the story from the material science up: how replacing liquid electrolyte with solid reshapes every part of the cell; who is leading the global race to industrialize; and why the toughest challenges are no longer chemistry, but yield, interfaces, and manufacturing economics.</p>
+
+<h3 id="what-really-is-solid-state-battery">What Really is Solid-State Battery?</h3>
+
+<p>Before diving into promise and reality, let us ground the discussion in the underlying science—how solid-state batteries function and why this material shift matters. At its core, the concept is simple: <strong>replace the liquid electrolyte with a solid and unlock lithium-metal</strong>. This change transforms nearly every aspect of the battery stack—ion transport, mechanical behavior, safety, and manufacturability.</p>
+
+<p><strong>Four major electrolyte families</strong> define today’s competitive landscape, each balancing conductivity, stability, and scalability differently.</p>
+
+<p><strong><em>Sulfide Electrolytes – The High-Conductivity Frontier</em></strong><br />
+Built on lithium–sulfur frameworks, sulfides are the fastest solid ion conductors, with room-temperature conductivities near <strong>10⁻² S/cm</strong>, rivaling liquid systems. Their soft structure is ideal for <strong>fast-charging, high-power cells</strong>. However, their extreme <strong>moisture sensitivity and toxicity</strong> drive up cost and complicate scale-up.</p>
+<ul>
+  <li><strong>Key players</strong>: Toyota, Samsung SDI, Solid Power</li>
+</ul>
+
+<p><strong><em>Oxide Electrolytes – The Stable Ceramics</em></strong><br />
+Oxides trade ionic speed for unmatched <strong>chemical and thermal stability</strong>. Their rigid lattices support high-voltage cathodes but require high-temperature sintering and precise polishing, limiting throughput. Proven in solid oxide fuel cells, oxides represent the <strong>safety-first segment</strong> of the SSB market.</p>
+<ul>
+  <li><strong>Key players</strong>: ProLogium, QuantumScape</li>
+</ul>
+
+<p><strong><em>Hybrid and Semi-Solid Designs – The Bridge to Scale</em></strong><br />
+Hybrid cells combine a solid framework (oxide or sulfide) with a <strong>small fraction of gel or polymer</strong>, lowering interfacial resistance while maintaining solid-state safety. These designs can be produced on modified Li-ion equipment, <strong>reducing capital cost</strong> and <strong>accelerating commercialization</strong>.</p>
+<ul>
+  <li><strong>Key players</strong>: WeLion, QingTao, CATL, CALB, Gotion</li>
+</ul>
+
+<p><strong><em>Polymer Electrolytes – The Manufacturing Veterans</em></strong><br />
+Polymers can host dissolved lithium salts, achieving moderate conductivity (<strong>10⁻⁶–10⁻⁴ S/cm</strong>) at elevated temperature and excellent mechanical flexibility. While their performance lags at room temperature, their <strong>low capex and compatibility</strong> with existing Li-ion lines make them viable for <strong>cost sensitive market like stationary storage</strong>. No major EV makers pursue this route now.</p>
+
+<p><img src="/assets/img/notes/solid-state-battery-from-lab-to-production/01.png" alt="" /></p>
+
+<h6 id="fig-1-comparison-between-a-conventional-lithium-ion-battery-and-all-solid-state-battery-architecture-source"><strong>Fig 1: Comparison between a conventional lithium-ion battery and all solid-state battery architecture.</strong> <a href="https://www.biologic.net/topics/what-are-all-solid-state-batteries/">Source</a></h6>
+
+<hr />
+
+<h3 id="the-solid-state-battery-hype"><strong>The Solid State Battery Hype</strong></h3>
+
+<p>Solid-state batteries often appear as a <strong><em>one-stop** solution</em> for **ALL</strong> energy problem— safer, lighter and longer-lasting. To investors and policymakers, they symbolize a single materials breakthrough capable of <strong>rewriting how energy is stored and delivered</strong> across industries. This hype is fueled by the remarkable breadth of applications that solid-state could, in theory, transform.</p>
+
+<ul>
+  <li><strong>Electric Vehicles (EVs)</strong> — EVs drive ~90% of global battery demand, with the pack representing over half of total vehicle weight and cost. Solid-state enables longer range without heavier packs, simpler cooling, and new design freedom. <strong>SSBs can potentially bring EVs closer to parity in refuel time and range with combustion vehicles and reduce the cost of vehicles</strong></li>
+  <li><strong>eVTOL &amp; Humanoids —</strong> Electric flight and advanced robotics both demand extreme energy density and stability. It usually requires a threshold on ≥400 Wh/kg to achieve viable electric flight times, while humanoids require lightweight cells integrated into moving structures. <strong>Solid-state designs offer high energy density</strong></li>
+  <li><strong>Stationary Storage</strong> — For grid and backup systems, longevity and safety outweigh Wh/kg. <strong>Oxide and polymer SSBs can withstand temperature swings and chemical stress, with projected &gt;20-year lifetimes that may halve total storage cost</strong></li>
+</ul>
+
+<h3 id="the-solid-state-battery-reality"><strong>The Solid State Battery Reality</strong></h3>
+
+<p>Despite progress, most solid-state batteries remain in pilot or prototype stages. Four key challenges remain before mass adoption.</p>
+
+<p><img src="/assets/img/notes/solid-state-battery-from-lab-to-production/02.png" alt="" /></p>
+
+<h6 id="fig-2-key-challenges-and-expected-timeline-source-duomi-industry-expert-interviews">Fig 2: Key challenges and expected timeline. Source: Duomi industry expert interviews</h6>
+
+<h4 id="energy-density">Energy Density</h4>
+
+<p><strong>Ionic conductivity remains the fundamental bottleneck limiting energy density and fast-charging capability in solid state battery.</strong> Most solid electrolytes still lag liquid counterparts in ion mobility: conventional liquids reach 10⁻²–10⁻¹ S/cm, while even leading sulfide systems only achieve ~10⁻² S/cm. Oxides (10⁻³–10⁻⁴ S/cm) and polymers (~10⁻⁶ S/cm at room temperature) perform substantially lower. This <strong>mobility gap</strong> directly affects <strong>charge rate, low-temperature performance, and power output</strong>—especially critical for fast-charging EVs and eVTOLs. The good news is that electrolyte layers become thinner and thinner. Hybrid and semi-solid designs can also mitigate the issue by introducing gel fractions but lose some “all-solid” advantages. With composite and doped-interface systems, this gap could narrow within <strong>the next three years</strong>.</p>
+
+<h4 id="interface-stability">Interface Stability</h4>
+
+<p><strong>Yet as conductivity improves with thinner layers—just a few microns—maintaining solid-solid contact has become the emerging barrier.</strong> In solid systems, repeated lithium expansion can break contact:</p>
+
+<ul>
+  <li>Sulfides tend to form gas and lose adhesion</li>
+  <li>Oxides micro-crack under stress.</li>
+</ul>
+
+<p>Sustained contact currently requires constant stack pressure between 5–20 MPa—insufficient pressure raises resistance, excessive pressure fractures ceramics. This mechanical sensitivity complicates integration in <em>cell-to-body</em> EV architectures, where structural unevenness can distort modules. New compliant interlayers, pressure-adaptive designs, and elastic coatings are in development, with practical stability expected to mature in <strong>about four years</strong> ¹ .</p>
+
+<h4 id="throughput--yield">Throughput &amp; Yield</h4>
+
+<p><strong>Even with stable materials,</strong> <strong>manufacturing remains a major bottleneck in solid-state commercialization</strong>. Mature lithium-ion plants routinely achieve yields above 95%, yet most solid-state pilot lines struggle to reach even half that. Each microscopic crack, void, or misaligned layer can ruin a multilayer stack, turning precision engineering into an exercise in loss control. Sulfide systems demand ultra-dry, inert environments to avoid toxic hydrogen sulfide release, while oxide electrolytes require high-temperature sintering—often above 600 °C—followed by precision polishing. Both processes are slow, energy-intensive, and capital-heavy. Compared with roll-to-roll Li-ion coating lines that churn out hundreds of cells per minute, current SSB throughput is below 10 % of that rate.Automation, in-line defect inspection, and pressure-lamination optimization are starting to close the gap, but meaningful industrial throughput—comparable to modern Li-ion—is still likely <strong>six years away</strong> ¹ .</p>
+
+<h4 id="cost-parity">Cost Parity</h4>
+
+<p><strong>Even if performance improves, economics will determine how fast and how far solid-state batteries scale.</strong> At present, solid-state packs cost <strong>$250–400 /kWh</strong>, roughly double or triple next-generation NMC or LFP systems.</p>
+
+<ul>
+  <li>Material costs drive part of the premium—Li₂S precursors approach $1 million per ton at peak time—and oxide systems rely on energy-intensive elements like lanthanum and zirconium.</li>
+  <li>Capital intensity compounds the gap: new solid-state plants require <strong>$250–400 million per GWh</strong>, nearly twice the cost of equivalent Li-ion facilities. Manufacturers must choose between fully dedicated SSB lines for long-term advantage or hybrid retrofits that reuse Li-ion tooling for faster rollout.</li>
+</ul>
+
+<p>Over the past decade, lithium-ion battery costs have fallen from more than <strong>$800 per kWh in 2013</strong> (back when Tesla Model S first start to mass production) <strong>to about $115 per kWh in 2024</strong> (when EV captures a quarter of new vehicle sale worldwide), a &gt;85 % reduction driven by scale, automation, and yield improvement rather than radical chemistry shifts.</p>
+
+<blockquote>
+  <p>“A decade ago, lithium-ion cells were nearly <strong>$1,000 per kWh</strong>. Everyone said they’d never hit $100 — but scale, automation, and yield proved them wrong.” — Cost Engineer Manager in EV company</p>
+</blockquote>
+
+<p>Solid-state batteries are at the lithium-ion battery’s “first Tesla Model S” moment, the beginning of commercialization. If they follow a comparable trajectory, pack costs could decline from $500–600 per kWh in 2025 to roughly <strong>$100 per kWh by 2035–2036</strong>—mirroring the same decade-long compression that transformed lithium-ion economics.</p>
+
+<p>This projection implies: <strong>manufacturing efficiency and yield convergence—not new materials alone—will determine when solid-state achieves true cost parity.</strong></p>
+
+<iframe title="Li-ion cost reduction in a decade" aria-label="Interactive chart" src="https://datawrapper.dwcdn.net/bZTwS/2/" scrolling="no" frameborder="0" style="width:0;min-width:100%;border:none;" height="756"></iframe>
+<p><em>Li-ion cost reduction in a decade</em></p>
+
+<h6 id="figure-3-projection-on-solid-state-battery-cost-reduction-in-next-12-years">Figure 3: Projection on solid state battery cost reduction in next 12 years</h6>
+
+<hr />
+
+<h3 id="the-road-to-mass-adoption-a-decade-of-convergence">The Road to Mass Adoption: A Decade of Convergence</h3>
+
+<p>At present, solid-state packs cost <strong>double or triple</strong> for advanced lithium-ion systems. This economic inflection depends less on chemistry than on <strong>throughput × yield</strong>—the same scaling dynamic that once defined the semiconductor and solar industries.</p>
+
+<p>The pathway to mainstream solid-state battery adoption can be mapped across five overlapping stages, each closing a specific technological and economic gap (see Figure 4).</p>
+
+<h4 id="today--rd--pilot-stage">Today — R&amp;D / Pilot Stage</h4>
+
+<p>Current prototypes remain largely in pilot lines and lab-scale validation. <strong>Real-world energy densities stay <a href="https://interestingengineering.com/transportation/semi-solid-battery-affordable-china-ev">below 200 Wh/kg</a>, with cycle lives under 300 and efficiencies below 70%—limiting actual usable capacity.</strong> Most efforts are focused on stabilizing interfaces and managing defects in multilayer stacks. At this stage, production remains in pilot stage. There are essential groundwork needed before commercial scaling begins.</p>
+
+<h4 id="3-years--hybrid-commercial-entry">3 Years — Hybrid Commercial Entry</h4>
+
+<p>The first wave of commercialization will come through <strong>semi-solid and hybrid systems</strong>, combining oxide–gel architectures. These cells balance manufacturability and performance by adapting existing lithium-ion tooling. <strong>Early deployments are already visible in</strong> <strong>High-end EVs</strong> such as <a href="https://electrek.co/2024/06/17/nio-semi-solid-state-ev-battery-maker-ramps-output-621-mi-et7/">NIO</a>, as well as <strong>drones</strong> and <strong>robotics</strong>—niches where higher cost can be offset by energy density and safety gains.</p>
+
+<h4 id="5-years--early-automotive-integration">5 Years — Early Automotive Integration</h4>
+
+<p>By the late 2020s, progress in <strong>interface stability</strong> and <strong>semi-solid process control</strong> will enable use in <strong>premium EVs</strong> and <strong>aerospace prototypes</strong> like eVTOL. Manufacturers will start integrating solid-state modules into structural battery packs, testing their compatibility with cell-to-body designs and fast-charge infrastructure. Yields and throughput will continue to improve, but most production will still be pre-automated and regional.</p>
+
+<h4 id="8-years--cost-parity-horizon">8 Years — Cost Parity Horizon</h4>
+
+<p>Around the early 2030s, <strong>optimized anode-free solid-state cells</strong> are expected to approach near current <strong>lithium-ion cost parity</strong>, unlocking <strong>mainstream EV</strong> and <strong>grid-storage</strong> applications. This phase marks the inflection where yield, automation, and process standardization begin to outweigh raw material cost as the dominant factor in economics.</p>
+
+<h4 id="10-years--mass-adoption-phase">10 Years — Mass Adoption Phase</h4>
+
+<p>By the mid-2030s, <strong>mature production lines</strong> will push pack costs below <strong>$80 / kWh</strong> and extend lifetimes beyond <strong>1,000 cycles</strong>. At this stage, solid-state batteries will widespread use across automotive, stationary, and robotic platforms, as well as open new industries that couldn’t be powered be traditional li-ion battery—realizing the long-anticipated transition from laboratory promise to industrial reality.</p>
+
+<p><img src="/assets/img/notes/solid-state-battery-from-lab-to-production/03.png" alt="" /></p>
+
+<h6 id="fig-4-decade-roadmap-of-ssb-adoption-source-industry-expert-interviews">Fig 4: Decade roadmap of SSB adoption. Source: industry expert interviews</h6>
+
+<h3 id="strategic-moves-in-the-battery-ecosystem">Strategic Moves in the Battery Ecosystem</h3>
+
+<p>While much of the industry focuses on chemistry breakthroughs, early areas to watch will likely concentrate in <strong>manufacturing enablers, process IP, and hybrid integration models</strong>—the practical bridges from lab success to scalable production.</p>
+
+<h4 id="manufacturing-enablers-over-cell-makers"><strong>Manufacturing Enablers over Cell Makers</strong></h4>
+
+<p>Equipment firms or cell makers developing <strong>inert-environment sintering</strong>, <strong>precision pressure control</strong>, and <strong>in-line defect inspection</strong> systems will capture early value. These are the “<strong>picks and shovels</strong>” of the solid-state transition—lower risk, recurring-revenue hardware and software suppliers that underpin process reliability. As pilot lines expand, these “environmental infrastructure” suppliers could command <strong>semiconductor-like margins</strong>, selling to every solid-state program regardless of chemistry.</p>
+
+<blockquote>
+  <p><em>“Even if the chemistry is ready, you still need entirely new equipment for sintering, pressing, and surface inspection. Current Li-ion lines don’t have those capabilities. The cell maker who builds reliable tools for uniform pressure control and real-time quality monitoring will own the bottleneck.”</em><br />
+ — Electrode Engineer</p>
+</blockquote>
+
+<h4 id="china-mid-term-commercializers">China Mid-Term Commercializers</h4>
+
+<p>Chinese <strong>semi-solid leaders—CATL, QingTao—</strong> already dominate pilot-scale output. Their alpha lies in supply-chain integration and early OEM qualification (2026–2028 window). These firms will likely define the cost curve and set early design standards for hybrid pack architecture across Asia and Europe.</p>
+
+<h4 id="pack-level-hybridization">Pack-Level Hybridization</h4>
+
+<p>The most practical solid-state implementation through 2030 may occur at the pack level, blending ~50 % solid-state modules with ~50 % advanced Li-ion cells under an intelligent battery-management system (BMS) that dynamically balances both chemistries. Such hybridization offers a <strong>capital-efficient commercialization path</strong>, yielding strong returns before full solid-state maturity. Investors gain exposure to near-term hybrid adoption without waiting for fundamental electrolyte breakthroughs.</p>
+
+<blockquote>
+  <p><em>“Some of dry-electrode developing—mixing, calendaring, and lamination—can transfer conceptually, maybe ten to twenty percent. But it’s not plug-and-play. In the near term, hybrid packs that combine solid-state and conventional Li-ion under a smart BMS might be a practical commercialization route.”</em><br />
+ — Battery Manufacturer Engineer</p>
+</blockquote>
+
+<h3 id="looking-forward-the-global-race-has-begun">Looking Forward: The Global Race Has Begun</h3>
+
+<p><img src="/assets/img/notes/solid-state-battery-from-lab-to-production/04.png" alt="" /></p>
+
+<h6 id="fig-5--global-map-of-solid-state-and-polymer-battery-developers--summarizing-key-companies-technologies-and-regional-distributions-between-north-america-europe-and-asia-source">Fig 5 : Global map of solid-state and polymer battery developers , summarizing key companies, technologies, and regional distributions between North America, Europe, and Asia. <a href="https://www.idtechex.com/en/research-report/solid-state-and-polymer-batteries-2023-2033-technology-forecasts-players/917">Source</a>.</h6>
+
+<p>The dream of a safer, longer-lasting, and instantly charging battery may still seem distant, the race to realize it has already begun. What once lived in university labs and press releases is now scaling across pilot lines, national policies, and trillion-dollar mobility plans. The question is no longer if solid-state will arrive, but where and how fast.</p>
+
+<p>Each region is charting its own path. China is sprinting ahead through semi-solid deployment and vertical integration; Japan and Korea are betting on sulfide purity and manufacturing precision; the United States and Europe are cultivating aggressive process IP. Together, they form a global relay—each advancing part of the same industrial frontier. Costs will fall step by step, not by miracle, as yield and automation compound across every factory iteration.</p>
+
+<p>The global race has begun—and for the first time, the finish line is not a cell, but a system.</p>]]></content><author><name>Qinwen (Wendy) Huang</name></author><summary type="html"><![CDATA[At a glance]]></summary></entry></feed>

@@ -2,7 +2,7 @@
 layout: note
 title: "On first-principles thinking, and reasoning from biological nouns"
 date: 2026-06-22
-q: q3
+q: q2
 summary: "\"First principles\" is tech's favorite phrase. It tends to break the moment it meets biology"
 ---
 

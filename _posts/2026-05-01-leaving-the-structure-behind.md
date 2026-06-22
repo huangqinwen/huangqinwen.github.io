@@ -121,8 +121,8 @@ Now, on to the next chapter.
 here are the links to the things I built:
 
 - [Duomi](https://theduomi.com/) — a logo wall builder for consulting decks and competitive landscapes
-- **[SlideKit](https://docs-slidekit.theduomi.com/)** — a PowerPoint backend for AI agents and automated workflows. It generates branded decks that match your `.pptx` template
+- **[SlideKit](https://docs-slidekit.theduomi.com/)** — automation for private equity and investment workflows _(illustrative docs)_
 
-If you are working on similar problems, exploring deck automation, or just curious about the building process, I’d love to chat!
+If you are working on similar problems, exploring workflow automation, or just curious about the building process, I’d love to chat!
 
 ![](/assets/img/notes/leaving-the-structure-behind/01.jpeg)

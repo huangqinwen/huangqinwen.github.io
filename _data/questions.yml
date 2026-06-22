@@ -1,0 +1,5 @@
+# Short labels for the three §01 "about me" questions.
+# A post's front matter sets `q: q1|q2|q3` to tie it to one of these.
+q1: "What makes a life better?"
+q2: "How can AI help us live better?"
+q3: "What we'd need to build for it"

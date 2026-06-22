@@ -39,7 +39,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: post
+      layout: note
   - scope:
       path: "_pages"
     values:

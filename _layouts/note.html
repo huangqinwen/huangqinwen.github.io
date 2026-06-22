@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} — Wendy's Open Notes</title>
+  <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+  {% if page.summary %}<meta name="description" content="{{ page.summary | strip_html | truncate: 160 }}">{% endif %}
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Hanken+Grotesk:wght@400;500;550;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+</head>
+<body class="note-body">
+  <article class="note-page">
+    <a class="note-back" href="{{ '/#notes' | relative_url }}">← back to the notebook</a>
+    <h1 class="note-h1">{{ page.title }}</h1>
+    {% assign qlabel = site.data.questions[page.q] %}
+    <p class="note-byline">{{ page.date | date: "%B %-d, %Y" }}{% if qlabel %} · {{ qlabel }}{% endif %}</p>
+    <div class="note-content">
+      {{ content }}
+    </div>
+    <a class="note-back note-back-foot" href="{{ '/#notes' | relative_url }}">← back to the notebook</a>
+  </article>
+</body>
+</html>

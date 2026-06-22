@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "Desire, Wagering, Dosing"
-date: 2026-06-22
+date: 2026-03-22
 q: q1
 summary: "The vice triad behind breakout consumer products, and why AI sits on all three."
 ---

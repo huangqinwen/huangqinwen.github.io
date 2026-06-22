@@ -14,7 +14,7 @@ In today’s tech world, the phrase became popular again through Elon Musk’s w
 
 Every search for truth has to begin somewhere. The real question is whether you have found the true beginning, or merely stopped at a convenient assumption. First-principles thinking forces us to distinguish what is actually true from what is merely inherited, assumed, or conventional. But that is also where the phrase is most often abused. First-principles thinking requires a real understanding of the problem’s foundations. Yet the phrase is often invoked precisely where those foundations are missing. **Instead of reaching fundamental truths, we stop at convenient assumptions and call them principles.**
 
-#### **The pattern we actually see**
+#### The pattern we actually see
 
 This is especially true in biomedicine, and even more so in the current excitement around applying AI to biomedicine.
 
@@ -22,7 +22,7 @@ Let me be clear: I am a strong advocate for the potential of AI in biomedicine. 
 
 But in many conversations with people approaching biology from the tech side, I keep noticing the same pattern: **first-principles language often arrives before first-principles understanding.**
 
-#### **Reasoning from biological nouns**
+#### Reasoning from biological nouns
 
 The argument usually begins with confidence: drug discovery is inefficient, biology produces enormous amounts of data uncaptured, AI is good at pattern discovery and high-dimensional optimization when we have sufficient data. Therefore, if we apply first-principles thinking, the problem should become much more solvable: with better engineering, more data, better models, and faster iteration.
 

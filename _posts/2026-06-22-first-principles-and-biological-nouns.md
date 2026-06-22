@@ -82,4 +82,5 @@ The goal should not be to pretend that biology already has clean first principle
 
 That honesty is not pessimism. It is the beginning of real progress.
 
-![](/assets/img/notes/first-principles-and-biological-nouns/01.jpeg)
+![Painting by Zao Wou-Ki](/assets/img/notes/first-principles-and-biological-nouns/01.jpeg)
+*Painting by Zao Wou-Ki*

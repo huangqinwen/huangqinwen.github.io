@@ -9,3 +9,7 @@ _site
 Gemfile.lock
 vendor
 
+
+# stray profile-pic working files (kept locally, not tracked)
+prof_pic-removebg-preview.png
+profile-pic.jpeg
